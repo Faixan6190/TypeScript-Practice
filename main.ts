@@ -82,8 +82,14 @@
 // const b = "faizan";
 // console.log(b);
 
-const Testing = () => {
-  console.log("Hello");
+// const Testing = () => {
+//   console.log("Hello");
+// };
+
+// Testing();
+
+const Testing2 = () => {
+  console.log(Testing2, "testing");
 };
 
-Testing();
+Testing2();
