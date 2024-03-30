@@ -50,7 +50,15 @@
 // let b = 4;
 // console.log(a++);
 // console.log(++b);
-var a = 5;
-var b = 2;
-console.log(a--);
-console.log(--b);
+// let a = 5;
+// let b = 2;
+// console.log(a--);
+// console.log(--b);
+// let c = 5;
+// console.log(c);
+// const b = "faizan";
+// console.log(b);
+var Testing = function () {
+    console.log("Hello");
+};
+Testing();

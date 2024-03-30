@@ -79,5 +79,11 @@
 // let c = 5;
 // console.log(c);
 
-const b = "faizan";
-console.log(b);
+// const b = "faizan";
+// console.log(b);
+
+const Testing = () => {
+  console.log("Hello");
+};
+
+Testing();
