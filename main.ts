@@ -76,5 +76,8 @@
 // console.log(a--);
 // console.log(--b);
 
-let c = 5;
-console.log(c);
+// let c = 5;
+// console.log(c);
+
+const b = "faizan";
+console.log(b);
