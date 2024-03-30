@@ -70,8 +70,11 @@
 // console.log(a++);
 // console.log(++b);
 
-let a = 5;
-let b = 2;
+// let a = 5;
+// let b = 2;
 
-console.log(a--);
-console.log(--b);
+// console.log(a--);
+// console.log(--b);
+
+let c = 5;
+console.log(c);
