@@ -69,7 +69,7 @@
 // let user: string = "faizan";
 // console.log(user, "user");
 var Header = function () {
-    var userName = "Faizan";
+    var userName = "Sheryar";
     if (userName === "Faizan") {
         console.log("Welcome Faizan");
     }

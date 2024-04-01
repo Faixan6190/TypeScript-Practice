@@ -96,14 +96,14 @@
 
 // let user: string = "faizan";
 // console.log(user, "user");
-const Header = () => {
-  const userName: string = "Sheryar";
+// const UserTesting = () => {
+//   const userName: string = "Sheryar";
 
-  if (userName === "Faizan") {
-    console.log("Welcome Faizan");
-  } else {
-    console.log("I Don't Recognize You....!");
-  }
-};
+//   if (userName === "Faizan") {
+//     console.log("Welcome Faizan");
+//   } else {
+//     console.log("I Don't Recognize You....!");
+//   }
+// };
 
-Header();
+// UserTesting();
