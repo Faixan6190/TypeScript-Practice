@@ -95,4 +95,4 @@
 // Testing2();
 
 let user: string = "faizan";
-console.log(user);
+console.log(user, "user");
