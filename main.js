@@ -58,7 +58,23 @@
 // console.log(c);
 // const b = "faizan";
 // console.log(b);
-var Testing = function () {
-    console.log("Hello");
+// const Testing = () => {
+//   console.log("Hello");
+// };
+// Testing();
+// const Testing2 = () => {
+//   console.log(Testing2, "testing");
+// };
+// Testing2();
+// let user: string = "faizan";
+// console.log(user, "user");
+var Header = function () {
+    var userName = "Faizan";
+    if (userName === "Faizan") {
+        console.log("Welcome Faizan");
+    }
+    else {
+        console.log("I Don't Recognize You....!");
+    }
 };
-Testing();
+Header();
