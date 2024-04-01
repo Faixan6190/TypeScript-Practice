@@ -88,8 +88,10 @@
 
 // Testing();
 
-const Testing2 = () => {
-  console.log(Testing2, "testing");
-};
+// const Testing2 = () => {
+//   console.log(Testing2, "testing");
+// };
 
-Testing2();
+// Testing2();
+
+let user: string = "faizan";
