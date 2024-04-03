@@ -110,3 +110,4 @@
 
 let a: string = "Faizan";
 console.info(a);
+console.log(a);

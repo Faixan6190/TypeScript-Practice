@@ -68,13 +68,14 @@
 // Testing2();
 // let user: string = "faizan";
 // console.log(user, "user");
-var Header = function () {
-    var userName = "Sheryar";
-    if (userName === "Faizan") {
-        console.log("Welcome Faizan");
-    }
-    else {
-        console.log("I Don't Recognize You....!");
-    }
-};
-Header();
+// const UserTesting = () => {
+//   const userName: string = "Sheryar";
+//   if (userName === "Faizan") {
+//     console.log("Welcome Faizan");
+//   } else {
+//     console.log("I Don't Recognize You....!");
+//   }
+// };
+// UserTesting();
+var a = "Faizan";
+console.info(a);
