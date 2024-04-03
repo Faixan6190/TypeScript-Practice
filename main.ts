@@ -108,5 +108,5 @@
 
 // UserTesting();
 
-try {
-} catch (error) {}
+let a: string = "Faizan";
+console.info(a);
