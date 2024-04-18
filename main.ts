@@ -108,6 +108,9 @@
 
 // UserTesting();
 
-let a: string = "Faizan";
-console.info(a);
+// let a: string = "Faizan";
+// console.info(a);
+// console.log(a);
+
+const a = "faizan";
 console.log(a);

@@ -77,5 +77,8 @@
 //   }
 // };
 // UserTesting();
-var a = "Faizan";
-console.info(a);
+// let a: string = "Faizan";
+// console.info(a);
+// console.log(a);
+var a = "faizan";
+console.log(a);
