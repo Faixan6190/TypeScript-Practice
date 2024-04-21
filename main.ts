@@ -112,5 +112,14 @@
 // console.info(a);
 // console.log(a);
 
-const a = "faizan";
+// const a = "faizan";
+// console.log(a);
+
+let a = 5;
+let b = 5;
+
+a++;
+++b;
+
 console.log(a);
+console.log(b);
