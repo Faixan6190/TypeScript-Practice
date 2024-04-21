@@ -115,11 +115,21 @@
 // const a = "faizan";
 // console.log(a);
 
-let a = 5;
-let b = 4;
+// let a = 5;
+// let b = 4;
 
-a++;
+// a++;
+// ++b;
+
+// console.log(a);
+// console.log(b);
+
+// let a = 5;
+// a++;
+
+// console.log(a);
+
+let b = 3;
 ++b;
 
-console.log(a);
 console.log(b);
