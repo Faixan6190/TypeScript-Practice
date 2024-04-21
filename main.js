@@ -80,5 +80,11 @@
 // let a: string = "Faizan";
 // console.info(a);
 // console.log(a);
-var a = "faizan";
+// const a = "faizan";
+// console.log(a);
+var a = 5;
+var b = 4;
+a++;
+++b;
 console.log(a);
+console.log(b);
