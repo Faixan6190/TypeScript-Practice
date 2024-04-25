@@ -94,9 +94,10 @@
 // let b = 3;
 // ++b;
 // console.log(b);
-// var a = "Faizan";
+// let a: string = "Faizan";
 // console.log("a", a);
 
-function myName() {
-  console.info();
-}
+// function myName() {
+//   console.log("Hello");
+// }
+// myName();

@@ -137,6 +137,8 @@
 // let a: string = "Faizan";
 // console.log("a", a);
 
-function myName(): string = {
+// function myName() {
+//   console.log("Hello");
+// }
 
-};
+// myName();
