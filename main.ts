@@ -129,7 +129,10 @@
 
 // console.log(a);
 
-let b = 3;
-++b;
+// let b = 3;
+// ++b;
 
-console.log(b);
+// console.log(b);
+
+let a: string = "Faizan";
+console.log("a", a);
