@@ -134,5 +134,9 @@
 
 // console.log(b);
 
-let a: string = "Faizan";
-console.log("a", a);
+// let a: string = "Faizan";
+// console.log("a", a);
+
+function myName(): string = {
+
+};
