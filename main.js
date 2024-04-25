@@ -91,6 +91,8 @@
 // let a = 5;
 // a++;
 // console.log(a);
-var b = 3;
-++b;
-console.log(b);
+// let b = 3;
+// ++b;
+// console.log(b);
+var a = "Faizan";
+console.log("a", a);
