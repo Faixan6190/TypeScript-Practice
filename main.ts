@@ -149,8 +149,8 @@
 
 // myName();
 
-const myName = () => {
-  console.log("myName", myName);
-};
+// const myName = () => {
+//   console.log("myName", myName);
+// };
 
-myName();
+// myName();
