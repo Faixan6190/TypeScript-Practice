@@ -143,8 +143,14 @@
 
 // myName();
 
+// const myName = () => {
+//   console.info("myName", myName);
+// };
+
+// myName();
+
 const myName = () => {
-  console.info("myName", myName);
+  console.log("myName", myName);
 };
 
 myName();

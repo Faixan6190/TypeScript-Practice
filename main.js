@@ -100,7 +100,11 @@
 //   console.log("Hello");
 // }
 // myName();
+// const myName = () => {
+//   console.info("myName", myName);
+// };
+// myName();
 var myName = function () {
-    console.info("myName", myName);
+    console.log("myName", myName);
 };
 myName();
