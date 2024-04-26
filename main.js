@@ -96,8 +96,11 @@
 // console.log(b);
 // let a: string = "Faizan";
 // console.log("a", a);
-
 // function myName() {
 //   console.log("Hello");
 // }
 // myName();
+var myName = function () {
+    console.info("myName", myName);
+};
+myName();

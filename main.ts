@@ -142,3 +142,9 @@
 // }
 
 // myName();
+
+const myName = () => {
+  console.info("myName", myName);
+};
+
+myName();
