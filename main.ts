@@ -154,3 +154,9 @@
 // };
 
 // myName();
+
+const stdObj = {
+  name: "Faizan",
+  id: 1,
+  email: "faizan@gmail.com",
+};
