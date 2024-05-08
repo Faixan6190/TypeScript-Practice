@@ -161,4 +161,6 @@ const stdObj = {
   email: "faizan@gmail.com",
 };
 
-d;
+const tempObj = {
+  name: "Yahoo",
+};
