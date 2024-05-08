@@ -160,7 +160,3 @@ const stdObj = {
   id: 1,
   email: "faizan@gmail.com",
 };
-
-const tempObj = {
-  name: "Yahoo",
-};
