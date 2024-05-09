@@ -104,7 +104,22 @@
 //   console.info("myName", myName);
 // };
 // myName();
-var myName = function () {
-    console.log("myName", myName);
-};
-myName();
+// const myName = () => {
+//   console.log("myName", myName);
+// };
+// myName();
+// const stdObj = {
+//   name: "Faizan",
+//   id: 1,
+//   email: "faizan@gmail.com",
+// };
+// const tempObj = {
+//   name: "Yahoo",
+// };
+// const tempObjStd = {
+//   name: "Yahoo",
+// };
+function abcd() {
+    console.log("abcd");
+}
+abcd();
