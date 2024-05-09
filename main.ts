@@ -164,7 +164,3 @@ const stdObj = {
 const tempObj = {
   name: "Yahoo",
 };
-
-const tempObjStd = {
-  name: "Yahoo",
-};
