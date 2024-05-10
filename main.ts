@@ -165,6 +165,6 @@
 //   name: "Yahoo",
 // };
 
-// const tempObjStd = {
-//   name: "Yahoo",
-// };
+const tempObjStd = {
+  name: "Yahoo",
+};
