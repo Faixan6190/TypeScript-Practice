@@ -161,9 +161,9 @@
 //   email: "faizan@gmail.com",
 // };
 
-const tempObj = {
-  name: "Yahoo",
-};
+// const tempObj = {
+//   name: "Yahoo",
+// };
 
 const tempObjStd = {
   name: "Yahoo",
