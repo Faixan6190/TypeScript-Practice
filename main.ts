@@ -181,3 +181,7 @@ console.log(a)
 const b :string = "24"
 
 console.log(typeof b)
+
+
+
+console.log(a)
