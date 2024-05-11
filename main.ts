@@ -168,3 +168,16 @@
 // const tempObjStd = {
 //   name: "Yahoo",
 // };
+
+const a = 5
+console.log(a)
+
+
+console.log(a)
+
+
+console.log(a)
+
+const b :string = "24"
+
+console.log(typeof b)

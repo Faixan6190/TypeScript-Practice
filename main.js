@@ -119,7 +119,9 @@
 // const tempObjStd = {
 //   name: "Yahoo",
 // };
-function abcd() {
-    console.log("abcd");
-}
-abcd();
+var a = 5;
+console.log(a);
+console.log(a);
+console.log(a);
+var b = "24";
+console.log(typeof b);
