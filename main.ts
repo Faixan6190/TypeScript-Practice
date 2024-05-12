@@ -188,10 +188,10 @@
 
 // const user = "fa";
 
-const user = "faizan";
+// const user = "faizan";
 
-if (user) {
-  console.log(user);
-} else {
-  console.log(user, "user");
-}
+// if (user) {
+//   console.log(user);
+// } else {
+//   console.log(user, "user");
+// }
