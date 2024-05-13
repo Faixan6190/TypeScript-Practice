@@ -190,7 +190,7 @@
 
 // const user = "faizan";
 
-const user = faizan;
+// const user = faizan;
 
 // if (user) {
 //   console.log(user);
