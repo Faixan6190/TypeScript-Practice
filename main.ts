@@ -190,8 +190,10 @@
 
 // const user = "faizan";
 
-if (user) {
-  console.log(user);
-} else {
-  console.log(user, "user");
-}
+const user = faizan;
+
+// if (user) {
+//   console.log(user);
+// } else {
+//   console.log(user, "user");
+// }
