@@ -136,6 +136,13 @@
 // } else {
 //   console.log(user, "user");
 // }
-var c = 10;
-c += 5;
-console.log(c, "c");
+// let c = 10;
+// c += 5;
+// console.log(c, "c");
+var a = 5;
+var b = 2;
+var isEqual = a == b;
+var isNotEqual = a != b;
+var isGreaterThan = a > b;
+var isLessThan = a < b;
+console.log("isEqual", isEqual, "isNotEqual", isNotEqual, "isGreaterThan", isGreaterThan, "isLessThan", isLessThan);
