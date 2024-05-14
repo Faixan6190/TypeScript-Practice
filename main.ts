@@ -179,7 +179,6 @@
 // const b :string = "24"
 
 // console.log(typeof b)
-
 // console.log(a)
 
 // const a = 5;
@@ -197,3 +196,7 @@
 // } else {
 //   console.log(user, "user");
 // }
+
+let c = 10;
+c += 5;
+console.log(c, "c");

@@ -119,9 +119,23 @@
 // const tempObjStd = {
 //   name: "Yahoo",
 // };
-var a = 5;
-console.log(a);
-console.log(a);
-console.log(a);
-var b = "24";
-console.log(typeof b);
+// const a = 5
+// console.log(a)
+// console.log(a)
+// console.log(a)
+// const b :string = "24"
+// console.log(typeof b)
+// console.log(a)
+// const a = 5;
+// console.log(a);
+// const user = "fa";
+// const user = "faizan";
+// const user = faizan;
+// if (user) {
+//   console.log(user);
+// } else {
+//   console.log(user, "user");
+// }
+var c = 10;
+c += 5;
+console.log(c, "c");
