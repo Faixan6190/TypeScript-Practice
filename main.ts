@@ -219,6 +219,22 @@ let b = 2;
 //   isLessThan
 // );
 
-let logicalAnd = a > 0 && b > 0;
-let logicalOr = a < 0 || b > 0;
-let logicalNot = !(a > 0);
+// let logicalAnd = a > 0 && b > 0;
+// let logicalOr = a < 0 || b > 0;
+// let logicalNot = !(a > 0);
+
+// let isRaining = false;
+// if (isRaining) {
+//   console.log("Wear a raincoat");
+// } else {
+//   console.log("wear sunglass");
+// }
+
+// let weather = "";
+// if (weather === "raining") {
+//   console.log("wear a raincoat");
+// } else if (weather === "cloudy") {
+//   console.log("wear a light jacket");
+// } else {
+//   console.log("wear sunglass");
+// }

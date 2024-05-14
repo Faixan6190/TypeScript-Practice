@@ -141,8 +141,36 @@
 // console.log(c, "c");
 var a = 5;
 var b = 2;
-var isEqual = a == b;
-var isNotEqual = a != b;
-var isGreaterThan = a > b;
-var isLessThan = a < b;
-console.log("isEqual", isEqual, "isNotEqual", isNotEqual, "isGreaterThan", isGreaterThan, "isLessThan", isLessThan);
+// let isEqual = a == b;
+// let isNotEqual = a != b;
+// let isGreaterThan = a > b;
+// let isLessThan = a < b;
+// console.log(
+//   "isEqual",
+//   isEqual,
+//   "isNotEqual",
+//   isNotEqual,
+//   "isGreaterThan",
+//   isGreaterThan,
+//   "isLessThan",
+//   isLessThan
+// );
+// let logicalAnd = a > 0 && b > 0;
+// let logicalOr = a < 0 || b > 0;
+// let logicalNot = !(a > 0);
+// let isRaining = false;
+// if (isRaining) {
+//   console.log("Wear a raincoat");
+// } else {
+//   console.log("wear sunglass");
+// }
+var weather = "";
+if (weather === "raining") {
+    console.log("wear a raincoat");
+}
+else if (weather === "cloudy") {
+    console.log("wear a light jacket");
+}
+else {
+    console.log("wear sunglass");
+}
