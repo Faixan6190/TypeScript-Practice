@@ -204,17 +204,21 @@
 let a = 5;
 let b = 2;
 
-let isEqual = a == b;
-let isNotEqual = a != b;
-let isGreaterThan = a > b;
-let isLessThan = a < b;
-console.log(
-  "isEqual",
-  isEqual,
-  "isNotEqual",
-  isNotEqual,
-  "isGreaterThan",
-  isGreaterThan,
-  "isLessThan",
-  isLessThan
-);
+// let isEqual = a == b;
+// let isNotEqual = a != b;
+// let isGreaterThan = a > b;
+// let isLessThan = a < b;
+// console.log(
+//   "isEqual",
+//   isEqual,
+//   "isNotEqual",
+//   isNotEqual,
+//   "isGreaterThan",
+//   isGreaterThan,
+//   "isLessThan",
+//   isLessThan
+// );
+
+let logicalAnd = a > 0 && b > 0;
+let logicalOr = a < 0 || b > 0;
+let logicalNot = !(a > 0);
