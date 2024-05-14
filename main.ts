@@ -197,6 +197,21 @@
 //   console.log(user, "user");
 // }
 
-let c = 10;
-c += 5;
-console.log(c, "c");
+// let c = 10;
+// c += 5;
+// console.log(c, "c");
+
+let a = 5;
+let b = 2;
+
+let isEqual = a + b;
+let isNotEqual = a + b;
+let isGreaterThan = a > b;
+let isLessThan = a < b;
+console.log(
+  "isEqual",
+  isEqual && "isNotEqual",
+  isNotEqual && "isGreaterThan",
+  isGreaterThan && "isLessThan",
+  isLessThan
+);
