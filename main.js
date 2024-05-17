@@ -119,7 +119,13 @@
 // const tempObjStd = {
 //   name: "Yahoo",
 // };
-// const a = 5
+var user = "faizan";
+if (user === "faizan") {
+    console.log("allow");
+}
+else {
+    console.log("not allow");
+}
 // console.log(a)
 // console.log(a)
 // console.log(a)
@@ -164,13 +170,11 @@ var b = 2;
 // } else {
 //   console.log("wear sunglass");
 // }
-var weather = "";
-if (weather === "raining") {
-    console.log("wear a raincoat");
-}
-else if (weather === "cloudy") {
-    console.log("wear a light jacket");
-}
-else {
-    console.log("wear sunglass");
-}
+// let weather = "";
+// if (weather === "raining") {
+//   console.log("wear a raincoat");
+// } else if (weather === "cloudy") {
+//   console.log("wear a light jacket");
+// } else {
+//   console.log("wear sunglass");
+// }
