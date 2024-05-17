@@ -169,7 +169,12 @@
 //   name: "Yahoo",
 // };
 
-const aa = false;
+const user: string = "faizan";
+if (user === "faizan") {
+  console.log("allow");
+} else {
+  console.log("not allow");
+}
 // console.log(a)
 
 // console.log(a)
