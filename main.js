@@ -120,7 +120,7 @@
 //   name: "Yahoo",
 // };
 var user = "faizan";
-if (user === "faizan") {
+if (user == "faizan") {
     console.log("allow");
 }
 else {

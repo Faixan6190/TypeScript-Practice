@@ -170,7 +170,7 @@
 // };
 
 const user: string = "faizan";
-if (user == "faizan") {
+if (user == "") {
   console.log("allow");
 } else {
   console.log("not allow");
