@@ -207,7 +207,7 @@
 // console.log(c, "c");
 
 let a = 5;
-let b = 2;
+// let b = 2;
 
 // let isEqual = a == b;
 // let isNotEqual = a != b;
