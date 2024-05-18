@@ -169,12 +169,12 @@
 //   name: "Yahoo",
 // };
 
-const user: string = "faizan";
-if (user == "") {
-  console.log("allow");
-} else {
-  console.log("not allow");
-}
+// const user = true;
+// if (typeof user === "string") {
+//   console.log("allow");
+// } else {
+//   console.log("not allow");
+// }
 // console.log(a)
 
 // console.log(a)
@@ -207,7 +207,7 @@ if (user == "") {
 // console.log(c, "c");
 
 let a = 5;
-let b = 2;
+// let b = 2;
 
 // let isEqual = a == b;
 // let isNotEqual = a != b;

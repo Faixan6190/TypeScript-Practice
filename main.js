@@ -119,8 +119,8 @@
 // const tempObjStd = {
 //   name: "Yahoo",
 // };
-var user = "faizan";
-if (user == "faizan") {
+var user = true;
+if (typeof user === "string") {
     console.log("allow");
 }
 else {
