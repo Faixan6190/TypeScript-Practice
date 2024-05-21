@@ -206,7 +206,7 @@
 // c += 5;
 // console.log(c, "c");
 
-let a = 5;
+// let a = 5;
 // let b = 2;
 // let c = 2;
 
