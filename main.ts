@@ -245,4 +245,6 @@
 //   console.log("wear sunglass");
 // }
 
-let sampleFunc = function () {};
+let sampleFunc = function () {
+  console.log("Hello");
+};
