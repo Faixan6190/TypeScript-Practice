@@ -245,4 +245,4 @@
 //   console.log("wear sunglass");
 // }
 
-let sampleFunc = "";
+let sampleFunc = function () {};
