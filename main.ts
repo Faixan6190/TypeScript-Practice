@@ -248,3 +248,4 @@
 let sampleFunc = function () {
   console.log("Hello");
 };
+sampleFunc();
