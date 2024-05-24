@@ -251,4 +251,4 @@
 // };
 // sampleFunc();
 
-let a;
+let a = 1;
