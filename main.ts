@@ -254,7 +254,7 @@
 // let a = 2;
 // console.log("a", a);
 
-// const sampleFunc = () => {
-//   console.log("Hello");
-// };
-// sampleFunc();
+const sampleFunc = () => {
+  console.log("Hello");
+};
+sampleFunc();
