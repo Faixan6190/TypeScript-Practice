@@ -259,4 +259,4 @@
 // };
 // sampleFunc();
 
-let a: string = "faizan";
+// let a: string = "faizan";
