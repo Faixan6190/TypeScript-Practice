@@ -260,3 +260,5 @@
 // sampleFunc();
 
 // let a: string = "faizan";
+
+console.log("faizan");
