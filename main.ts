@@ -264,3 +264,4 @@
 // console.log("faizan");
 
 let a: string = "faizan";
+console.log("a", a);
