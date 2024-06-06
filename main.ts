@@ -258,7 +258,3 @@
 //   console.log("Hello");
 // };
 // sampleFunc();
-
-// // let a: string = "faizan";
-
-// console.log("faizan");
