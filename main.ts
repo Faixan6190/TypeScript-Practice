@@ -250,14 +250,3 @@
 //   console.log("Hello sampleFunc");
 // };
 // sampleFunc();
-
-// let a = 2;
-// console.log("a", a);
-
-// const sampleFunc = () => {
-//   console.log("Hello");
-// };
-// sampleFunc();
-
-let nameS: string = "faizan";
-console.log(nameS);
