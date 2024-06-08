@@ -244,3 +244,8 @@
 // } else {
 //   console.log("wear sunglass");
 // }
+
+let stdObj = {
+  name: "faizan",
+  id: "1",
+};
