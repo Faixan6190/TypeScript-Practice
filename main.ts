@@ -245,8 +245,8 @@
 //   console.log("wear sunglass");
 // }
 
-let stdObj = {
-  name: "faizan",
-  id: "1",
-};
+// let stdObj = {
+//   name: "faizan",
+//   id: "1",
+// };
 // console.log("stdObj", stdObj);
