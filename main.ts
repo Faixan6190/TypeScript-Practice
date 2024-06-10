@@ -248,7 +248,8 @@
 let stdObj = [
   {
     id: "1",
-    name: "faizan",
+    name: "Faizan",
+    email: "Faizan@gmail.com",
   },
   {
     id: "2",
