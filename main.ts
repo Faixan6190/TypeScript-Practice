@@ -258,5 +258,9 @@ let stdObj = [
     id: "3",
     name: "Ahmed",
   },
+  {
+    id: "4",
+    name: "User",
+  },
 ];
 console.log("stdObj", stdObj);
