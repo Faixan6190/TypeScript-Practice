@@ -245,31 +245,47 @@
 //   console.log("wear sunglass");
 // }
 
-let stdObj = [
-  {
-    id: "1",
-    name: "Faizan",
-    email: "Faizan@gmail.com",
-  },
-  {
-    id: "2",
-    name: "Sheikh",
-  },
-  {
-    id: "3",
-    name: "Ahmed",
-  },
-  {
-    id: "4",
-    name: "User",
-  },
-  {
-    id: "5",
-    name: "Sheryar",
-  },
-  {
-    id: "6",
-    name: "Faizan Sheikh",
-  },
-];
-console.log("stdObj", stdObj);
+// let stdObj = [
+//   {
+//     id: "1",
+//     name: "Faizan",
+//     email: "Faizan@gmail.com",
+//   },
+//   {
+//     id: "2",
+//     name: "Sheikh",
+//   },
+//   {
+//     id: "3",
+//     name: "Ahmed",
+//   },
+//   {
+//     id: "4",
+//     name: "User",
+//   },
+//   {
+//     id: "5",
+//     name: "Sheryar",
+//   },
+//   {
+//     id: "6",
+//     name: "Faizan Sheikh",
+//   },
+// ];
+// console.log("stdObj", stdObj);
+
+// do while loop
+
+let person: {
+  name: string;
+  age: number;
+  home: string;
+  currentLovedCity: string;
+  isStatus: boolean;
+} = {
+  name: "faizan",
+  age: 23,
+  home: "a34",
+  currentLovedCity: "Karachi",
+  isStatus: false,
+};
