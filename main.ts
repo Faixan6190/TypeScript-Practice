@@ -276,16 +276,32 @@
 
 // do while loop
 
-let person: {
-  name: string;
-  age: number;
-  home: string;
-  currentLovedCity: string;
-  isStatus: boolean;
-} = {
-  name: "faizan",
-  age: 23,
-  home: "a34",
-  currentLovedCity: "Karachi",
-  isStatus: false,
-};
+// let person: {
+//   name: string;
+//   age: number;
+//   home: string;
+//   currentLovedCity: string;
+//   isStatus: boolean;
+// } = {
+//   name: "faizan",
+//   age: 23,
+//   home: "a34",
+//   currentLovedCity: "Karachi",
+//   isStatus: false,
+// };
+
+// let arr: [string, string];
+
+// let a: string = "faizan";
+// let b: string = "ahmed";
+
+// arr.push([a, b]);
+
+let arr: [string, string][] = []; // arr is an array of tuples, each tuple containing two strings
+
+let a: string = "faizan";
+let b: string = "ahmed";
+
+arr.push([a, b]);
+
+console.log("arr", arr);

@@ -119,13 +119,12 @@
 // const tempObjStd = {
 //   name: "Yahoo",
 // };
-var user = true;
-if (typeof user === "string") {
-    console.log("allow");
-}
-else {
-    console.log("not allow");
-}
+// const user = true;
+// if (typeof user === "string") {
+//   console.log("allow");
+// } else {
+//   console.log("not allow");
+// }
 // console.log(a)
 // console.log(a)
 // console.log(a)
@@ -145,8 +144,9 @@ else {
 // let c = 10;
 // c += 5;
 // console.log(c, "c");
-var a = 5;
-var b = 2;
+// let a = 5;
+// let b = 2;
+// let c = 2;
 // let isEqual = a == b;
 // let isNotEqual = a != b;
 // let isGreaterThan = a > b;
@@ -178,3 +178,54 @@ var b = 2;
 // } else {
 //   console.log("wear sunglass");
 // }
+// let stdObj = [
+//   {
+//     id: "1",
+//     name: "Faizan",
+//     email: "Faizan@gmail.com",
+//   },
+//   {
+//     id: "2",
+//     name: "Sheikh",
+//   },
+//   {
+//     id: "3",
+//     name: "Ahmed",
+//   },
+//   {
+//     id: "4",
+//     name: "User",
+//   },
+//   {
+//     id: "5",
+//     name: "Sheryar",
+//   },
+//   {
+//     id: "6",
+//     name: "Faizan Sheikh",
+//   },
+// ];
+// console.log("stdObj", stdObj);
+// do while loop
+// let person: {
+//   name: string;
+//   age: number;
+//   home: string;
+//   currentLovedCity: string;
+//   isStatus: boolean;
+// } = {
+//   name: "faizan",
+//   age: 23,
+//   home: "a34",
+//   currentLovedCity: "Karachi",
+//   isStatus: false,
+// };
+// let arr: [string, string];
+// let a: string = "faizan";
+// let b: string = "ahmed";
+// arr.push([a, b]);
+var arr = []; // arr is an array of tuples, each tuple containing two strings
+var a = "faizan";
+var b = "ahmed";
+arr.push([a, b]);
+console.log("arr", arr);
