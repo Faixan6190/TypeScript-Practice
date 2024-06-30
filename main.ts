@@ -304,4 +304,4 @@ let b: string = "Sheikh";
 
 arr.push([a, b]);
 
-console.log("arr", arr);
+console.log("arr", arr.a);
