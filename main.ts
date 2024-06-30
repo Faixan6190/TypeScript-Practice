@@ -300,7 +300,7 @@
 let arr: [string, string][] = []; // arr is an array of tuples, each tuple containing two strings
 
 let a: string = "Faizan";
-let b: string = "Ahmed";
+let b: string = "";
 
 arr.push([a, b]);
 
