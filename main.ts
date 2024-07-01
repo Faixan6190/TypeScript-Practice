@@ -297,11 +297,11 @@
 
 // arr.push([a, b]);
 
-let arr: [string, string][] = []; // arr is an array of tuples, each tuple containing two strings
+// let arr: [string, string][] = []; // arr is an array of tuples, each tuple containing two strings
 
-let a: string = "Faizan";
-let b: string = "Sheikh";
+// let a: string = "Faizan";
+// let b: string = "Sheikh";
 
-arr.push([a, b]);
+// arr.push([a, b]);
 
-console.log("arr", arr);
+// console.log("arr", arr);
