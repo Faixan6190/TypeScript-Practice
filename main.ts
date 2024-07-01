@@ -306,4 +306,6 @@
 
 // console.log("arr", arr);
 
+let user = "faizan";
+
 console.log("yours---->", user);
