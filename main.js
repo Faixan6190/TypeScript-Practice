@@ -251,14 +251,19 @@
 // } else {
 //   console.log("Sorry, that's not correct!");
 // }
-var guess = 7;
-var target = 5;
-if (guess > target) {
-    console.log("Your guess is too low.");
-}
-else if (guess < target) {
-    console.log("Your guess is too high.");
+// let guess: number = 7;
+// let target: number = 5;
+// if (guess > target) {
+//   console.log("Your guess is too low.");
+// } else if (guess < target) {
+//   console.log("Your guess is too high.");
+// } else {
+//   console.log("You guessed correctly!");
+// }
+var isFriend = "ADJs";
+if (isFriend === "Faizan" || isFriend === "Sheikh") {
+    console.log("".concat(isFriend, " is your friend."));
 }
 else {
-    console.log("You guessed correctly!");
+    console.log("".concat(isFriend, " is not your friend"));
 }

@@ -343,9 +343,25 @@
 //   console.log("You guessed correctly!");
 // }
 
-let isFriend: string = "Faizan";
-if (isFriend === "Faizan" || isFriend === "Sheikh") {
-  console.log(`${isFriend} is your friend.`);
+// let isFriend: string = "Faizan";
+// if (isFriend === "Faizan" || isFriend === "Sheikh") {
+//   console.log(`${isFriend} is your friend.`);
+// } else {
+//   console.log(`${isFriend} is not your friend`);
+// }
+
+import inquirer from "inquirer";
+
+let isFriend = await inquirer.prompt([
+  {
+    name: "name",
+    type: "string",
+    message: "Enter your friend name:",
+  },
+]);
+
+if (isFriend.name === "Faizan" || isFriend.name === "Sheikh") {
+  console.log(`${isFriend} is your frined.`);
 } else {
-  console.log(`${isFriend} is not your friend`);
+  console.log(`${isFriend} is not your friend.`);
 }
