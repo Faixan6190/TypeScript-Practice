@@ -350,18 +350,33 @@
 //   console.log(`${isFriend} is not your friend`);
 // }
 
-import inquirer from "inquirer";
+// import inquirer from "inquirer";
 
-let isFriend = await inquirer.prompt([
-  {
-    name: "name",
-    type: "string",
-    message: "Enter your friend name:",
-  },
-]);
+// let isFriend = await inquirer.prompt([
+//   {
+//     name: "name",
+//     type: "string",
+//     message: "Enter your friend name:",
+//   },
+// ]);
 
-if (isFriend.name === "Faizan" || isFriend.name === "Sheikh") {
-  console.log(`${isFriend} is your frined.`);
+// if (isFriend.name === "Faizan" || isFriend.name === "Sheikh") {
+//   console.log(`${isFriend.name} is your frined.`);
+// } else {
+//   console.log(`${isFriend.name} is not your friend.`);
+// }
+
+let player1: string = "Rock";
+let player2: string = "Scissors";
+
+if (player1 === player2) {
+  console.log("It's a tie!");
+} else if (
+  (player1 === "Rock" && player2 === "Scissors") ||
+  (player1 === "Scissors" && player2 === "Paper") ||
+  (player1 === "Paper" && player2 === "Rock")
+) {
+  console.log("Player 1 wins!");
 } else {
-  console.log(`${isFriend} is not your friend.`);
+  console.log("Player 2 wins!");
 }

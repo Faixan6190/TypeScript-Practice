@@ -1,6 +1,4 @@
-"use strict";
 // console.log("Hello World");
-Object.defineProperty(exports, "__esModule", { value: true });
 // const Header = () => {
 //   console.log("Hello World");
 // };
@@ -268,17 +266,30 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // } else {
 //   console.log(`${isFriend} is not your friend`);
 // }
-var inquirer_1 = require("inquirer");
-var isFriend = await inquirer_1.default.prompt([
-    {
-        name: "name",
-        type: "string",
-        message: "Enter your friend name:",
-    },
-]);
-if (isFriend.name === "Faizan" || isFriend.name === "Sheikh") {
-    console.log("".concat(isFriend, " is your frined."));
+// import inquirer from "inquirer";
+// let isFriend = await inquirer.prompt([
+//   {
+//     name: "name",
+//     type: "string",
+//     message: "Enter your friend name:",
+//   },
+// ]);
+// if (isFriend.name === "Faizan" || isFriend.name === "Sheikh") {
+//   console.log(`${isFriend.name} is your frined.`);
+// } else {
+//   console.log(`${isFriend.name} is not your friend.`);
+// }
+let player1 = "Rock";
+let player2 = "Scissors";
+if (player1 === player2) {
+    console.log("It's a tie!");
+}
+else if ((player1 === "Rock" && player2 === "Scissors") ||
+    (player1 === "Scissors" && player2 === "Paper") ||
+    (player1 === "Paper" && player2 === "Rock")) {
+    console.log("Player 1 wins!");
 }
 else {
-    console.log("".concat(isFriend, " is not your friend."));
+    console.log("Player 2 wins!");
 }
+export {};
