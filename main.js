@@ -1,4 +1,6 @@
+"use strict";
 // console.log("Hello World");
+Object.defineProperty(exports, "__esModule", { value: true });
 // const Header = () => {
 //   console.log("Hello World");
 // };
@@ -260,10 +262,23 @@
 // } else {
 //   console.log("You guessed correctly!");
 // }
-var isFriend = "ADJs";
-if (isFriend === "Faizan" || isFriend === "Sheikh") {
-    console.log("".concat(isFriend, " is your friend."));
+// let isFriend: string = "Faizan";
+// if (isFriend === "Faizan" || isFriend === "Sheikh") {
+//   console.log(`${isFriend} is your friend.`);
+// } else {
+//   console.log(`${isFriend} is not your friend`);
+// }
+var inquirer_1 = require("inquirer");
+var isFriend = await inquirer_1.default.prompt([
+    {
+        name: "name",
+        type: "string",
+        message: "Enter your friend name:",
+    },
+]);
+if (isFriend.name === "Faizan" || isFriend.name === "Sheikh") {
+    console.log("".concat(isFriend, " is your frined."));
 }
 else {
-    console.log("".concat(isFriend, " is not your friend"));
+    console.log("".concat(isFriend, " is not your friend."));
 }
