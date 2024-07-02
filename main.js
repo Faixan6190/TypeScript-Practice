@@ -245,10 +245,20 @@
 //   default:
 //     console.log("Work on a hobby");
 // }
-var answer = "not";
-if (answer === "correct") {
-    console.log("You got it right!");
+// let answer: string = "not";
+// if (answer === "correct") {
+//   console.log("You got it right!");
+// } else {
+//   console.log("Sorry, that's not correct!");
+// }
+var guess = 7;
+var target = 5;
+if (guess > target) {
+    console.log("Your guess is too low.");
+}
+else if (guess < target) {
+    console.log("Your guess is too high.");
 }
 else {
-    console.log("Sorry, that's not correct!");
+    console.log("You guessed correctly!");
 }

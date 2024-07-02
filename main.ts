@@ -325,9 +325,20 @@
 //     console.log("Work on a hobby");
 // }
 
-let answer: string = "not";
-if (answer === "correct") {
-  console.log("You got it right!");
-} else {
-  console.log("Sorry, that's not correct!");
-}
+// let answer: string = "not";
+// if (answer === "correct") {
+//   console.log("You got it right!");
+// } else {
+//   console.log("Sorry, that's not correct!");
+// }
+
+// let guess: number = 7;
+// let target: number = 5;
+
+// if (guess > target) {
+//   console.log("Your guess is too low.");
+// } else if (guess < target) {
+//   console.log("Your guess is too high.");
+// } else {
+//   console.log("You guessed correctly!");
+// }
