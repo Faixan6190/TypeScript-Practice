@@ -366,8 +366,25 @@
 //   console.log(`${isFriend.name} is not your friend.`);
 // }
 
-let player1: string = "Rock";
-let player2: string = "Scissors";
+import inquirer from "inquirer";
+
+let player1 = await inquirer.prompt([
+  {
+    name: "name",
+    type: "string",
+    message: "Enter Your Choice",
+  },
+]);
+let player2 = await inquirer.prompt([
+  {
+    name: "name",
+    type: "string",
+    message: "Enter Your Choice",
+  },
+]);
+
+// let player1: string = "Rock";
+// let player2: string = "Scissors";
 
 if (player1 === player2) {
   console.log("It's a tie!");
