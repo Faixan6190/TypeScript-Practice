@@ -224,8 +224,24 @@
 // let a: string = "faizan";
 // let b: string = "ahmed";
 // arr.push([a, b]);
-var arr = []; // arr is an array of tuples, each tuple containing two strings
-var a = "faizan";
-var b = "ahmed";
-arr.push([a, b]);
-console.log("arr", arr);
+// let arr: [string, string][] = []; // arr is an array of tuples, each tuple containing two strings
+// let a: string = "Faizan";
+// let b: string = "Sheikh";
+// arr.push([a, b]);
+// console.log("arr", arr);
+// let user = "faizan";
+// console.log("yours---->", user);
+var dayOff = "Friday";
+switch (dayOff) {
+    case "Friday":
+        console.log("Take a half break");
+        break;
+    case "Saturday":
+        console.log("Go Hiking");
+        break;
+    case "Sunday":
+        console.log("Read a book");
+        break;
+    default:
+        console.log("Work on a hobby");
+}

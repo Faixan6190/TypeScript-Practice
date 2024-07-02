@@ -310,8 +310,11 @@
 
 // console.log("yours---->", user);
 
-let dayOff = "Sunday";
+let dayOff = "Friday";
 switch (dayOff) {
+  case "Friday":
+    console.log("Take a half break");
+    break;
   case "Saturday":
     console.log("Go Hiking");
     break;
