@@ -310,17 +310,24 @@
 
 // console.log("yours---->", user);
 
-let dayOff = "Friday";
-switch (dayOff) {
-  case "Friday":
-    console.log("Take a half break");
-    break;
-  case "Saturday":
-    console.log("Go Hiking");
-    break;
-  case "Sunday":
-    console.log("Read a book");
-    break;
-  default:
-    console.log("Work on a hobby");
+// let dayOff = "Friday";
+// switch (dayOff) {
+//   case "Friday":
+//     console.log("Take a half break");
+//     break;
+//   case "Saturday":
+//     console.log("Go Hiking");
+//     break;
+//   case "Sunday":
+//     console.log("Read a book");
+//     break;
+//   default:
+//     console.log("Work on a hobby");
+// }
+
+let answer: string = "not";
+if (answer === "correct") {
+  console.log("You got it right!");
+} else {
+  console.log("Sorry, that's not correct!");
 }
