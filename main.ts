@@ -306,6 +306,18 @@
 
 // console.log("arr", arr);
 
-let user = "faizan";
+// let user = "faizan";
 
-console.log("yours---->", user);
+// console.log("yours---->", user);
+
+let dayOff = "Sunday";
+switch (dayOff) {
+  case "Saturday":
+    console.log("Go Hiking");
+    break;
+  case "Sunday":
+    console.log("Read a book");
+    break;
+  default:
+    console.log("Work on a hobby");
+}
