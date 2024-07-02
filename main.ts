@@ -342,3 +342,10 @@
 // } else {
 //   console.log("You guessed correctly!");
 // }
+
+let isFriend: string = "Faizan";
+if (isFriend === "Faizan" || isFriend === "Sheikh") {
+  console.log(`${isFriend} is your friend.`);
+} else {
+  console.log(`${isFriend} is not your friend`);
+}
