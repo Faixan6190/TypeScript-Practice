@@ -403,4 +403,4 @@ function halfFryEgg(): number {
   return cooked;
 }
 let response: number = halfFryEgg();
-// console.log("response", response);
+console.log("response", response);
