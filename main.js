@@ -1,4 +1,6 @@
+"use strict";
 // console.log("Hello World");
+Object.defineProperty(exports, "__esModule", { value: true });
 // const Header = () => {
 //   console.log("Hello World");
 // };
@@ -313,4 +315,3 @@ function halfFryEgg() {
 }
 let response = halfFryEgg();
 console.log("response", response);
-export {};

@@ -398,9 +398,9 @@
 //   console.log("Player 2 wins!");
 // }
 
-function halfFryEgg(): number {
-  let cooked = 1 + 1.5 + 2;
-  return cooked;
-}
-let response: number = halfFryEgg();
-console.log("response", response);
+// function halfFryEgg(): number {
+//   let cooked = 1 + 1.5 + 2;
+//   return cooked;
+// }
+// let response: number = halfFryEgg();
+// console.log("response", response);
