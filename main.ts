@@ -366,34 +366,41 @@
 //   console.log(`${isFriend.name} is not your friend.`);
 // }
 
-import inquirer from "inquirer";
-
-let player1 = await inquirer.prompt([
-  {
-    name: "name",
-    type: "string",
-    message: "Enter Your Choice",
-  },
-]);
-let player2 = await inquirer.prompt([
-  {
-    name: "name",
-    type: "string",
-    message: "Enter Your Choice",
-  },
-]);
-
 // let player1: string = "Rock";
 // let player2: string = "Scissors";
 
-if (player1 === player2) {
-  console.log("It's a tie!");
-} else if (
-  (player1 === "Rock" && player2 === "Scissors") ||
-  (player1 === "Scissors" && player2 === "Paper") ||
-  (player1 === "Paper" && player2 === "Rock")
-) {
-  console.log("Player 1 wins!");
-} else {
-  console.log("Player 2 wins!");
+// import inquirer from "inquirer";
+
+// let player1 = await inquirer.prompt([
+//   {
+//     name: "name",
+//     type: "string",
+//     message: "Enter Your Choice",
+//   },
+// ]);
+// let player2 = await inquirer.prompt([
+//   {
+//     name: "name",
+//     type: "string",
+//     message: "Enter Your Choice",
+//   },
+// ]);
+
+// if (player1.name === player2.name) {
+//   console.log("It's a tie!");
+// } else if (
+//   (player1.name === "Rock" && player2.name === "Scissors") ||
+//   (player1.name === "Scissors" && player2.name === "Paper") ||
+//   (player1.name === "Paper" && player2.name === "Rock")
+// ) {
+//   console.log("Player 1 wins!");
+// } else {
+//   console.log("Player 2 wins!");
+// }
+
+function halfFryEgg(): number {
+  let cooked = 1 + 1.5 + 2;
+  return cooked;
 }
+// let response: number = halfFryEgg();
+// console.log("response", response);
