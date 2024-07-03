@@ -402,5 +402,5 @@ function halfFryEgg(): number {
   let cooked = 1 + 1.5 + 2;
   return cooked;
 }
-// let response: number = halfFryEgg();
+let response: number = halfFryEgg();
 // console.log("response", response);
