@@ -404,3 +404,7 @@
 // }
 // let response: number = halfFryEgg();
 // console.log("response", response);
+
+import b from "./index";
+
+let a: string = "Hello World";
