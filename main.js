@@ -313,7 +313,7 @@
 // }
 // let response: number = halfFryEgg();
 // console.log("response", response);
-import b from "./index";
+import b from "./index.js";
 let a = "Hello World";
 console.log("a", a);
 console.log("b", b);
