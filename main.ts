@@ -409,4 +409,4 @@ import b from "./index.js";
 
 let a: string = "Hello World";
 console.log("a", a);
-console.log("b", b);
+// console.log("b", b);
