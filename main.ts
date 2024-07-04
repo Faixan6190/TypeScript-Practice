@@ -408,3 +408,5 @@
 import b from "./index";
 
 let a: string = "Hello World";
+console.log("a", a);
+console.log("b", b);
