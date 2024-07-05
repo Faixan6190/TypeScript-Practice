@@ -410,3 +410,10 @@
 // let a: string = "Hello World";
 // console.log("a", a);
 // console.log("b", b);
+
+function halfFryEgg(egg: number, butter: number, salt: number): number {
+  return egg + butter + salt;
+}
+
+let response: number = halfFryEgg(1, 2, 3);
+console.log("response", response);
