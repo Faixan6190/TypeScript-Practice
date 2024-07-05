@@ -337,9 +337,14 @@
 // }
 // let response: number = halfFryEgg();
 // console.log(response);
-function halfFryEgg(egg = 1, butter = 1.5, salt = 2) {
-    return egg + butter + salt;
+// function halfFryEgg(egg: number = 1, butter: number = 1.5, salt: number = 2): number {
+//   return egg + butter + salt;
+// }
+// let response: number = halfFryEgg(10, 20, 30);
+// console.log(response);
+function halfFryEgg(egg = 1, ...ingredients) {
+    console.log(egg);
+    console.log(ingredients);
 }
-let response = halfFryEgg(10, 20);
-console.log(response);
+halfFryEgg(10, 2, 3, 4, 5);
 export {};
