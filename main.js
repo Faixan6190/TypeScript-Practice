@@ -313,7 +313,23 @@
 // }
 // let response: number = halfFryEgg();
 // console.log("response", response);
-import b from "./index.js";
-let a = "Hello World";
-console.log("a", a);
-console.log("b", b);
+// import b from "./index.js";
+// let a: string = "Hello World";
+// console.log("a", a);
+// console.log("b", b);
+// function halfFryEgg(egg: number, butter: number, salt: number): number {
+//   return egg + butter + salt;
+// }
+// let response: number = halfFryEgg(5, 6, 4);
+// console.log("response", response);
+// function addNumbers(a: number, b: number): number {
+//   return a + b;
+// }
+// let response = addNumbers(5, 3);
+// console.log(response);
+function calculateArea(width, height) {
+    return width * height;
+}
+let response = calculateArea(100, 50);
+console.log(response);
+export {};

@@ -411,9 +411,21 @@
 // console.log("a", a);
 // console.log("b", b);
 
-function halfFryEgg(egg: number, butter: number, salt: number): number {
-  return egg + butter + salt;
-}
+// function halfFryEgg(egg: number, butter: number, salt: number): number {
+//   return egg + butter + salt;
+// }
 
-let response: number = halfFryEgg(1, 2, 3);
-console.log("response", response);
+// let response: number = halfFryEgg(5, 6, 4);
+// console.log("response", response);
+
+// function addNumbers(a: number, b: number): number {
+//   return a + b;
+// }
+// let response = addNumbers(5, 3);
+// console.log(response);
+
+function calculateArea(width: number, height: number): number {
+  return width * height;
+}
+let response: number = calculateArea(100, 50);
+console.log(response);
