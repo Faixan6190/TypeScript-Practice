@@ -450,4 +450,4 @@
 
 let halfFryEgg = () => 1 + 2 + 3;
 let response: number = halfFryEgg();
-console.log(response);
+console.log("response", response);
