@@ -424,8 +424,20 @@
 // let response = addNumbers(5, 3);
 // console.log(response);
 
-function calculateArea(width: number, height: number): number {
-  return width * height;
+// function calculateArea(width: number, height: number): number {
+//   return width * height;
+// }
+// let response: number = calculateArea(100, 50);
+// console.log(response);
+
+// function halfFryEgg(egg: number = 1, butter: number = 1.5, salt: number = 2): number {
+//   return egg + butter + salt;
+// }
+// let response: number = halfFryEgg();
+// console.log(response);
+
+function halfFryEgg(egg: number = 1, butter: number = 1.5, salt: number = 2): number {
+  return egg + butter + salt;
 }
-let response: number = calculateArea(100, 50);
+let response: number = halfFryEgg(10, 20);
 console.log(response);
