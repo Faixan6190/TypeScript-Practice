@@ -442,8 +442,12 @@
 // let response: number = halfFryEgg(10, 20, 30);
 // console.log(response);
 
-function halfFryEgg(egg: number = 1, ...ingredients: number[]) {
-  console.log(egg);
-  console.log(ingredients);
-}
-halfFryEgg(10, 2, 3, 4, 5);
+// function halfFryEgg(egg: number = 1, ...ingredients: number[]) {
+//   console.log(egg);
+//   console.log(ingredients);
+// }
+// halfFryEgg(10, 2, 3, 4, 5);
+
+let halfFryEgg = () => 1 + 2 + 3;
+let response: number = halfFryEgg();
+console.log(response);
