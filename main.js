@@ -366,6 +366,9 @@
 // }
 // // console.log(localVar);
 // showExample();
+(function () {
+    console.log("Runs Imediately");
+})();
 let halfFryEgg = function () {
     let cocked = 1 + 2 + 3;
     console.log(cocked);
