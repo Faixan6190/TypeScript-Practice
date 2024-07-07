@@ -359,11 +359,21 @@
 // };
 // let response: number = halfFryEgg();
 // console.log(response);
-let globalVar = "Accessible everywhere";
-function showExample() {
-    let localVar = "Accessible only inside this function";
-    console.log(globalVar);
+// let globalVar: string = "Accessible everywhere";
+// function showExample() {
+//   let localVar = "Accessible only inside this function";
+//   console.log(globalVar);
+// }
+// // console.log(localVar);
+// showExample();
+// let getData = fetch("https://www.linkedin.com/in/ghousahmed");
+// console.log("getData", getData);
+async function api(url) {
+    const response = await fetch("https://www.linkedin.com/in/ghousahmed");
+    console.log(response);
+    if (!response.ok) {
+        throw new Error(response.statusText);
+    }
+    return await response.json();
 }
-// console.log(localVar);
-showExample();
 export {};
