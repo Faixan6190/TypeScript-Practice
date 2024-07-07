@@ -470,3 +470,6 @@
 // }
 // // console.log(localVar);
 // showExample();
+
+let getData = fetch("https://www.linkedin.com/in/ghousahmed");
+console.log("getData", getData);
