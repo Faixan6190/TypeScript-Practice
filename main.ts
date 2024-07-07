@@ -463,9 +463,10 @@
 // let response: number = halfFryEgg();
 // console.log(response);
 
-let globalVar: string = "Accessible everywhere";
-function showExample() {
-  let localVar = "Accessible only inside this function";
-  console.log(globalVar);
-}
-console.log(localVar);
+// let globalVar: string = "Accessible everywhere";
+// function showExample() {
+//   let localVar = "Accessible only inside this function";
+//   console.log(globalVar);
+// }
+// // console.log(localVar);
+// showExample();

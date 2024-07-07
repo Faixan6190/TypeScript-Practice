@@ -353,10 +353,17 @@
 // let halfFryEgg = (egg: number, butter: number, salt: number): number => egg + butter + salt;
 // let response: number = halfFryEgg(1, 1.5, 2);
 // console.log(response);
-let halfFryEgg = () => {
-    let cocked = 1 + 2 + 3;
-    return cocked;
-};
-let response = halfFryEgg();
-console.log(response);
+// let halfFryEgg = () => {
+//   let cocked = 1 + 2 + 3;
+//   return cocked;
+// };
+// let response: number = halfFryEgg();
+// console.log(response);
+let globalVar = "Accessible everywhere";
+function showExample() {
+    let localVar = "Accessible only inside this function";
+    console.log(globalVar);
+}
+// console.log(localVar);
+showExample();
 export {};
