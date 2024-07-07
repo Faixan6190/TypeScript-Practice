@@ -366,12 +366,21 @@
 // }
 // // console.log(localVar);
 // showExample();
-(function () {
-    console.log("Runs Imediately");
-})();
-let halfFryEgg = function () {
-    let cocked = 1 + 2 + 3;
-    console.log(cocked);
-};
-halfFryEgg();
+// let halfFryEgg = function () {
+//   let cocked = 1 + 2 + 3;
+//   console.log(cocked);
+// };
+// halfFryEgg();
+// (function () {
+//   console.log("Runs Imediately");
+// })();
+function countdown(number) {
+    if (number <= 0) {
+        console.log("Done!");
+        return;
+    }
+    console.log(number);
+    countdown(number - 1);
+}
+countdown(5);
 export {};
