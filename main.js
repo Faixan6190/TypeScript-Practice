@@ -374,13 +374,21 @@
 // (function () {
 //   console.log("Runs Imediately");
 // })();
-function countdown(number) {
-    if (number <= 0) {
-        console.log("Done!");
-        return;
+// function countdown(number: number): void {
+//   if (number <= 0) {
+//     console.log("Done!");
+//     return;
+//   }
+//   console.log(number);
+//   countdown(number - 1);
+// }
+// countdown(5);
+function factorial(value) {
+    if (value === 1) {
+        return 1;
     }
-    console.log(number);
-    countdown(number - 1);
+    return value * factorial(value - 1);
 }
-countdown(5);
+let response = factorial(10);
+console.log("response", response);
 export {};
