@@ -366,14 +366,9 @@
 // }
 // // console.log(localVar);
 // showExample();
-// let getData = fetch("https://www.linkedin.com/in/ghousahmed");
-// console.log("getData", getData);
-async function api(url) {
-    const response = await fetch("https://www.linkedin.com/in/ghousahmed");
-    console.log(response);
-    if (!response.ok) {
-        throw new Error(response.statusText);
-    }
-    return await response.json();
-}
+let halfFryEgg = function () {
+    let cocked = 1 + 2 + 3;
+    console.log(cocked);
+};
+halfFryEgg();
 export {};

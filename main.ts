@@ -471,4 +471,8 @@
 // // console.log(localVar);
 // showExample();
 
-
+let halfFryEgg = function () {
+  let cocked = 1 + 2 + 3;
+  console.log(cocked);
+};
+halfFryEgg();
