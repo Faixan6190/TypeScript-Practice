@@ -529,10 +529,18 @@
 // let response = factorial(5);
 // console.log("response", response);
 
-function outerFunction() {
-  const innerFunction = function () {
-    console.log("Hello from inside");
-  };
-  innerFunction();
+// function outerFunction() {
+//   const innerFunction = function () {
+//     console.log("Hello from inside");
+//   };
+//   innerFunction();
+// }
+// outerFunction();
+
+function processUserInput(callback: any) {
+  let name = "Faizan Ahmed";
+  callback(name);
 }
-outerFunction();
+processUserInput(function (name: string) {
+  console.log("Hello, " + name);
+});

@@ -383,12 +383,38 @@
 //   countdown(number - 1);
 // }
 // countdown(5);
-function factorial(value) {
-    if (value === 1) {
-        return 1;
-    }
-    return value * factorial(value - 1);
+// function factorial(value: number): number {
+//   if (value === 1) {
+//     return 1;
+//   }
+//   return value * factorial(value - 1);
+//   //Backend pe aisy work horha hota//
+//   // 10 * (10 -1)
+//   // 10 * 9 = 90
+//   // 90 * (9 -1)
+//   // 90 * 8 = 720
+//   // 720 * (8 - 1)
+//   // 720 * 7 =  5040
+//   // 5040 * (7-1)
+//   // 5040 * 6 = 30240
+//   // 30240 * (6-1)
+//   // 30240 * 5 = 151200
+//   // 151200 * (5-1)
+//   // 151200 * 4 = 604800
+//   // 604800 * (4-1)
+//   // 604800 * 3 = 1814400
+//   // 1814400 * (3-1)
+//   // 1814400 * 2 = 3628800
+//   // 3628800 * (2-1)
+//   // 3628800 * 1 = 3628800
+// }
+// let response = factorial(5);
+// console.log("response", response);
+function outerFunction() {
+    const innerFunction = function () {
+        console.log("Hello from inside");
+    };
+    innerFunction();
 }
-let response = factorial(10);
-console.log("response", response);
 export {};
+// outerFunction();
