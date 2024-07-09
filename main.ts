@@ -537,10 +537,10 @@
 // }
 // outerFunction();
 
-function processUserInput(callback: any) {
-  let name = "Faizan Ahmed";
-  callback(name);
-}
-processUserInput(function (name: string) {
-  console.log("Hello, " + name);
-});
+// function processUserInput(callback: any) {
+//   let name = "Faizan Ahmed";
+//   callback(name);
+// }
+// processUserInput(function (name: string) {
+//   console.log("Hello, " + name);
+// });
