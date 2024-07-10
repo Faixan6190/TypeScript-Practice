@@ -545,9 +545,9 @@
 //   console.log("Hello, " + name);
 // });
 
-const add = (num1: number, num2: number): number => {
-  //   console.log("add");
-  return num1 + num2;
-};
+// const add = (num1: number, num2: number): number => {
+//   //   console.log("add");
+//   return num1 + num2;
+// };
 
-let response = add(12, 15);
+// let response = add(12, 15);
