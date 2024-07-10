@@ -430,7 +430,7 @@
 // };
 // let response = add(12, 15);
 const add = (num1, num2) => {
-    console.log(num1, num2);
+    console.log(num1 + num2);
 };
 add(12, 15);
 export {};
