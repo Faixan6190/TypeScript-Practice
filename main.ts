@@ -545,8 +545,8 @@
 //   console.log("Hello, " + name);
 // });
 
-// const add = () => {
-//   console.log("add");
-// };
+const add = () => {
+  console.log("add");
+};
 
-// add();
+add();
