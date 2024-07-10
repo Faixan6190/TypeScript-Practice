@@ -410,11 +410,27 @@
 // }
 // let response = factorial(5);
 // console.log("response", response);
-function outerFunction() {
-    const innerFunction = function () {
-        console.log("Hello from inside");
-    };
-    innerFunction();
-}
-export {};
+// function outerFunction() {
+//   const innerFunction = function () {
+//     console.log("Hello from inside");
+//   };
+//   innerFunction();
+// }
 // outerFunction();
+// function processUserInput(callback: any) {
+//   let name = "Faizan Ahmed";
+//   callback(name);
+// }
+// processUserInput(function (name: string) {
+//   console.log("Hello, " + name);
+// });
+// const add = (num1: number, num2: number): number => {
+//   //   console.log("add");
+//   return num1 + num2;
+// };
+// let response = add(12, 15);
+const add = (num1, num2) => {
+    console.log(num1, num2);
+};
+add(12, 15);
+export {};
