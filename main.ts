@@ -551,3 +551,9 @@
 // };
 
 // let response = add(12, 15);
+
+const add = (num1: number, num2: number) => {
+  console.log(num1, num2);
+};
+
+add(12, 15);
