@@ -429,8 +429,14 @@
 //   return num1 + num2;
 // };
 // let response = add(12, 15);
-const add = (num1, num2) => {
-    console.log(num1 + num2);
+// const add = (num1: number, num2: number) => {
+//   console.log(num1 + num2);
+// };
+// add(12, 15);
+let firstName = "Faizan";
+let lastName = "Sheikh";
+const fullName = (firstName, lastName) => {
+    console.log(firstName, lastName);
 };
-add(12, 15);
+fullName(firstName, lastName);
 export {};
