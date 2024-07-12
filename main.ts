@@ -558,11 +558,11 @@
 
 // add(12, 15);
 
-let firstName: string = "Faizan";
-let lastName: string = "Sheikh";
+// let firstName: string = "Faizan";
+// let lastName: string = "Sheikh";
 
-const fullName = (firstName: string, lastName: string): void => {
-  console.log(firstName, lastName);
-};
+// const fullName = (firstName: string, lastName: string): void => {
+//   console.log(firstName, lastName);
+// };
 
-fullName(firstName, lastName);
+// fullName(firstName, lastName);
