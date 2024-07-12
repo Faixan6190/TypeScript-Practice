@@ -558,4 +558,5 @@
 
 // add(12, 15);
 
-let firstName : string = "Faizan"
+let firstName: string = "Faizan";
+let lastName: string = "Sheikh";
