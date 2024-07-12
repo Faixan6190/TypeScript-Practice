@@ -561,5 +561,11 @@
 let firstName: string = "Faizan";
 let lastName: string = "Sheikh";
 
-console.log("firstName", firstName);
-console.log("lastName", lastName);
+// console.log("firstName", firstName);
+// console.log("lastName", lastName);
+
+const fullName = (firstName: string, lastName: string): void => {
+  console.log(firstName, lastName);
+};
+
+fullName();
