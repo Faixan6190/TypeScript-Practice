@@ -433,10 +433,15 @@
 //   console.log(num1 + num2);
 // };
 // add(12, 15);
-let firstName = "Faizan";
-let lastName = "Sheikh";
-const fullName = (firstName, lastName) => {
-    console.log(firstName, lastName);
-};
-fullName(firstName, lastName);
+// let firstName: string = "Faizan";
+// let lastName: string = "Sheikh";
+// const fullName = (firstName: string, lastName: string): void => {
+//   console.log(firstName, lastName);
+// };
+// fullName(firstName, lastName);
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+    text += cars[i] + "<br>";
+}
 export {};
