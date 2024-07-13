@@ -439,10 +439,14 @@
 //   console.log(firstName, lastName);
 // };
 // fullName(firstName, lastName);
-const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+// const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+// let text = "";
+// for (let i = 0; i < cars.length; i++) {
+//   text += cars[i] + " ";
+// }
+// console.log(text);
 let text = "";
-for (let i = 0; i < cars.length; i++) {
-    text += cars[i] + " ";
+for (let i = 0; i < 5; i++) {
+    console.log("Hello World");
 }
-console.log(text);
 export {};
