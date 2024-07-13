@@ -566,3 +566,7 @@
 // };
 
 // fullName(firstName, lastName);
+
+const car = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
