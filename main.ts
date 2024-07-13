@@ -567,10 +567,10 @@
 
 // fullName(firstName, lastName);
 
-const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+// const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 
-let text = "";
-for (let i = 0; i < cars.length; i++) {
-  text += cars[i] + " ";
-}
-console.log(text);
+// let text = "";
+// for (let i = 0; i < cars.length; i++) {
+//   text += cars[i] + " ";
+// }
+// console.log(text);
