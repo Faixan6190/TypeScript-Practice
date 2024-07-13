@@ -574,3 +574,9 @@
 //   text += cars[i] + " ";
 // }
 // console.log(text);
+
+let text = "";
+
+for (let i = 0 ; i < 5 ; i++) {
+    text +=
+}
