@@ -445,8 +445,12 @@
 //   text += cars[i] + " ";
 // }
 // console.log(text);
-let text = "";
-for (let i = 0; i < 5; i++) {
-    console.log("Hello World");
+// let text = "";
+// for (let i = 0; i < 5; i++) {
+//   console.log("Hello World");
+// }
+let i = 0;
+while (i < 5) {
+    console.log("Hello");
 }
 export {};
