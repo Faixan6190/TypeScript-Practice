@@ -588,3 +588,4 @@
 // }
 
 let a = "faizan";
+console.log(a);
