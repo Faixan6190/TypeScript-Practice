@@ -586,3 +586,5 @@
 //   console.log("Hello");
 //   i++;
 // }
+
+let a = "faizan";
