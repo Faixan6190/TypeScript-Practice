@@ -589,3 +589,4 @@
 
 let a = "faizan";
 console.log(a);
+let b = "ahmed";
