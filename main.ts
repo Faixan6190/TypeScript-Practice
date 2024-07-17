@@ -589,5 +589,5 @@
 
 let a = "faizan";
 console.log(a);
-let b = "ahmed";
+// let b = "ahmed";
 // console.log(b);
