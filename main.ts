@@ -587,7 +587,7 @@
 //   i++;
 // }
 
-let a = "faizan";
+// let a = "faizan";
 // console.log(a);
 // let b = "ahmed";
 // console.log(b);
