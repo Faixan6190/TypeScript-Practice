@@ -592,4 +592,4 @@ console.log(a);
 let b = "ahmed";
 console.log(b);
 let c = "sheikh";
-// console.log(c);
+console.log(c);
