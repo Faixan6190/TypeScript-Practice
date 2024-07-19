@@ -588,7 +588,7 @@
 // }
 
 let a = "faizan";
-// console.log(a);
+console.log(a);
 // let b = "ahmed";
 // console.log(b);
 // let c = "sheikh";
