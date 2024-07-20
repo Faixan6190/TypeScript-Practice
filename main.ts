@@ -593,3 +593,5 @@
 // console.log(b);
 // let c = "sheikh";
 // console.log(c);
+
+let name: string = "Faizan";
