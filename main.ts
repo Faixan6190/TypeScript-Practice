@@ -596,3 +596,5 @@
 
 let name: string = "Faizan";
 console.log(name);
+let firstName : string = "Faizan"
+
