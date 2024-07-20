@@ -595,3 +595,4 @@
 // console.log(c);
 
 let name: string = "Faizan";
+console.log(name);
