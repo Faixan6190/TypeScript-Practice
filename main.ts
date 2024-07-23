@@ -594,9 +594,9 @@
 // let c = "sheikh";
 // console.log(c);
 
-let name: string = "Faizan";
-console.log(name);
-let firstName: string = "Faizan";
-console.log(firstName);
-let lastName: string = "Ahmed";
-console.log(lastName);
+// let name: string = "Faizan";
+// console.log(name);
+// let firstName: string = "Faizan";
+// console.log(firstName);
+// let lastName: string = "Ahmed";
+// console.log(lastName);
