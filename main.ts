@@ -600,6 +600,3 @@
 // console.log(firstName);
 // let lastName: string = "Ahmed";
 // console.log(lastName);
-
-let userName: string = "Muhammad Faizan Ahmed";
-userName = 24;
