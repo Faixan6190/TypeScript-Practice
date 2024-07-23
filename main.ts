@@ -599,4 +599,4 @@ console.log(name);
 let firstName: string = "Faizan";
 console.log(firstName);
 let lastName: string = "Ahmed";
-// console.log(lastName);
+console.log(lastName);
