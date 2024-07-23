@@ -1,4 +1,5 @@
 // console.log("Hello World");
+export {};
 // const Header = () => {
 //   console.log("Hello World");
 // };
@@ -449,9 +450,20 @@
 // for (let i = 0; i < 5; i++) {
 //   console.log("Hello World");
 // }
-let i = 0;
-while (i < 5) {
-    console.log("Hello");
-    i++;
-}
-export {};
+// let i = 0;
+// while (i < 5) {
+//   console.log("Hello");
+//   i++;
+// }
+// let a = "faizan";
+// console.log(a);
+// let b = "ahmed";
+// console.log(b);
+// let c = "sheikh";
+// console.log(c);
+// let name: string = "Faizan";
+// console.log(name);
+// let firstName: string = "Faizan";
+// console.log(firstName);
+// let lastName: string = "Ahmed";
+// console.log(lastName);

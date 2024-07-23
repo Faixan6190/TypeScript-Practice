@@ -13,11 +13,29 @@
 //TYPE INFERENCE//
 
 //strongly typed syntax
-let a: string = "Pakistan";
-let b: number = 9;
-let c: boolean = true;
+// let a: string = "Pakistan";
+// let b: number = 9;
+// let c: boolean = true;
 
-//type inference
-let e = "USA";
-let f = 10.9;
-let g = false;
+// //type inference
+// let e = "USA";
+// let f = 10.9;
+// let g = false;
+
+//STRING CONCATENATION//
+// let firstName: string = "Faizan";
+// let lastName: string = "Ahmed";
+// let fullName: string = firstName + " " + lastName;
+// console.log(fullName);
+
+// //TEMPLATE LITERALS//
+// let nameFirst: string = "Faizan";
+// let nameLast: string = "Ahmed";
+// let nameFull = `${nameFirst} ${nameLast}`;
+// console.log(nameFull);
+
+//OPERATORS//
+let num1: number = 5;
+let num2: number = 10;
+let cart: number = num1 + num2;
+console.log(cart);
