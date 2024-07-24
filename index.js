@@ -108,10 +108,41 @@
 // let isLessThan = a < b;
 // console.log(isEqual, isNotEqual, isGreaterThan, isLessThan);
 //LOGICAL OPERATORS//
-let a = 5;
-let b = 2;
-let logicalAnd = a > 0 && b > 0;
-let logicalOr = a < 0 || b > 0;
-let logicalNot = !(a > 5);
-console.log(logicalAnd, logicalOr, logicalNot);
-export {};
+// let a = 5;
+// let b = 2;
+// let logicalAnd = a > 0 && b > 0;
+// let logicalOr = a < 0 || b > 0;
+// let logicalNot = !(a > 0);
+// console.log(logicalAnd, logicalOr, logicalNot);
+//LOGIC STATEMENTS//
+// let isRaining = false;
+// if (isRaining) {
+//   console.log("Wear a raincoat.");
+// } else {
+//   console.log("Wear Sunglasses.");
+// }
+// let weather = "raining";
+// if (weather === "raining") {
+//   console.log("wear a raincoat.");
+// } else if (weather === "cloudy") {
+//   console.log("wear a light jacket.");
+// } else {
+//   console.log("wear a sunglasses.");
+// }
+import inquirer from "inquirer";
+const outputWeather = await inquirer.prompt({
+    name: "weather",
+    message: "Enter your weather: ",
+});
+if (outputWeather.weather === "raining") {
+    console.log("wear a raincoat.");
+}
+else if (outputWeather.weather === "cloudy") {
+    console.log("wear a light jacket.");
+}
+else if (outputWeather.weather === "snow") {
+    console.log("wear a heavy jacket");
+}
+else {
+    console.log("wear a sunglasses.");
+}
