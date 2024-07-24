@@ -42,9 +42,18 @@
 
 //UNINARY OPERATORS//
 let a: number = 5;
-++a;
-let b: number = 2;
-b++;
+console.log(a++)
+a++;
 console.log(a);
+let b: number = 2;
+++b;
 console.log(b);
 // let c: number;
+
+// c = ++a + a++ + --b + b-- + a + b++ + b;
+// console.log(c);
+
+//COMBINING OPERATORS//
+// let result = 3 + 4 * 5;
+// result++;
+// console.log(result);

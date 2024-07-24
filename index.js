@@ -27,8 +27,23 @@
 // let nameFull = `${nameFirst} ${nameLast}`;
 // console.log(nameFull);
 //OPERATORS//
-let num1 = 5;
-let num2 = 3;
-let cart = num1 % num2;
-console.log(cart);
+// let num1: number = 5;
+// let num2: number = 3;
+// let cart: number = num1 % num2;
+// console.log(cart);
+//UNINARY OPERATORS//
+let a = 5;
+console.log(a++);
+a++;
+console.log(a);
+let b = 2;
+++b;
+console.log(b);
 export {};
+// let c: number;
+// c = ++a + a++ + --b + b-- + a + b++ + b;
+// console.log(c);
+//COMBINING OPERATORS//
+// let result = 3 + 4 * 5;
+// result++;
+// console.log(result);
