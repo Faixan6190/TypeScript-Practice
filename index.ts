@@ -130,9 +130,17 @@
 // console.log(isEqual, isNotEqual, isGreaterThan, isLessThan);
 
 //LOGICAL OPERATORS//
-let a = 5;
-let b = 2;
-let logicalAnd = a > 0 && b > 0;
-let logicalOr = a < 0 || b > 0;
-let logicalNot = !(a > 0);
-console.log(logicalAnd, logicalOr, logicalNot);
+// let a = 5;
+// let b = 2;
+// let logicalAnd = a > 0 && b > 0;
+// let logicalOr = a < 0 || b > 0;
+// let logicalNot = !(a > 0);
+// console.log(logicalAnd, logicalOr, logicalNot);
+
+//LOGIC STATEMENTS//
+let isRaining = true;
+if (isRaining) {
+  console.log("Wear a raincoat.");
+} else {
+  console.log("Wear Sunglasses.");
+}
