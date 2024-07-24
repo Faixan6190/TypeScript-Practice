@@ -116,6 +116,15 @@
 // console.log(amountconverted);
 
 //ASSIGNMENT OPERATORS//
-let c = 10;
-c += 5;
-console.log(c);
+// let c = 10;
+// c += 5;
+// console.log(c);
+
+//COMPARISON OPERATORS//
+let a = 5;
+let b = 2;
+let isEqual = a == b;
+let isNotEqual = a != b;
+let isGreaterThan = a > b;
+let isLessThan = a < b;
+console.log(isEqual, isNotEqual, isGreaterThan, isLessThan);
