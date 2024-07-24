@@ -129,20 +129,34 @@
 // } else {
 //   console.log("wear a sunglasses.");
 // }
-import inquirer from "inquirer";
-const outputWeather = await inquirer.prompt({
-    name: "weather",
-    message: "Enter your weather: ",
-});
-if (outputWeather.weather === "raining") {
-    console.log("wear a raincoat.");
+// import inquirer from "inquirer";
+// const outputWeather = await inquirer.prompt({
+//   name: "weather",
+//   message: "Enter your weather: ",
+// });
+// if (outputWeather.weather === "raining") {
+//   console.log("wear a raincoat.");
+// } else if (outputWeather.weather === "cloudy") {
+//   console.log("wear a light jacket.");
+// } else if (outputWeather.weather === "snow") {
+//   console.log("wear a heavy jacket");
+// } else {
+//   console.log("wear a sunglasses.");
+// }
+// TERNARY OPERATORS//
+// let isHungry = false;
+// let snack = isHungry ? "apple" : "water";
+// console.log(`You should have some ${snack}.`);
+//SWITCH STATEMENTS//
+let dayOff = "Saturday";
+switch (dayOff) {
+    case "Sunday":
+        console.log("Read a book.");
+        break;
+    case "Saturday":
+        console.log("Go for hiking");
+        break;
+    default:
+        console.log("Work on a hobby");
 }
-else if (outputWeather.weather === "cloudy") {
-    console.log("wear a light jacket.");
-}
-else if (outputWeather.weather === "snow") {
-    console.log("wear a heavy jacket");
-}
-else {
-    console.log("wear a sunglasses.");
-}
+export {};

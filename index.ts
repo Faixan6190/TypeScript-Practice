@@ -171,3 +171,20 @@
 //   console.log("wear a sunglasses.");
 // }
 
+// TERNARY OPERATORS//
+// let isHungry = false;
+// let snack = isHungry ? "apple" : "water";
+// console.log(`You should have some ${snack}.`);
+
+//SWITCH STATEMENTS//
+let dayOff = "Wednesday";
+switch (dayOff) {
+  case "Sunday":
+    console.log("Read a book.");
+    break;
+  case "Saturday":
+    console.log("Go for hiking");
+    break;
+  default:
+    console.log("Work on a hobby");
+}
