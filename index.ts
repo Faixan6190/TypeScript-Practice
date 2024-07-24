@@ -41,13 +41,13 @@
 // console.log(cart);
 
 //UNINARY OPERATORS//
-let a: number = 5;
-console.log(a++)
-a++;
-console.log(a);
-let b: number = 2;
-++b;
-console.log(b);
+// let a: number = 5;
+// console.log(a++);
+// a++;
+// console.log(a);
+// let b: number = 2;
+// ++b;
+// console.log(b);
 // let c: number;
 
 // c = ++a + a++ + --b + b-- + a + b++ + b;
@@ -57,3 +57,5 @@ console.log(b);
 // let result = 3 + 4 * 5;
 // result++;
 // console.log(result);
+
+//INQUIRER//
