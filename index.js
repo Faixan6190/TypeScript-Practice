@@ -32,14 +32,13 @@
 // let cart: number = num1 % num2;
 // console.log(cart);
 //UNINARY OPERATORS//
-let a = 5;
-console.log(a++);
-a++;
-console.log(a);
-let b = 2;
-++b;
-console.log(b);
-export {};
+// let a: number = 5;
+// console.log(a++);
+// a++;
+// console.log(a);
+// let b: number = 2;
+// ++b;
+// console.log(b);
 // let c: number;
 // c = ++a + a++ + --b + b-- + a + b++ + b;
 // console.log(c);
@@ -47,3 +46,17 @@ export {};
 // let result = 3 + 4 * 5;
 // result++;
 // console.log(result);
+//INQUIRER//
+import inquirer from "inquirer";
+const input1 = await inquirer.prompt({
+    name: "num1",
+    type: "number",
+    message: "Kindly enter your first no:",
+});
+const input2 = await inquirer.prompt({
+    name: "num2",
+    type: "number",
+    message: "kindly enter your second no:",
+});
+let total = input1.num1 + input2.num2;
+console.log(total);
