@@ -28,7 +28,7 @@
 // console.log(nameFull);
 //OPERATORS//
 let num1 = 5;
-let num2 = 10;
-let cart = num1 + num2;
+let num2 = 3;
+let cart = num1 % num2;
 console.log(cart);
 export {};

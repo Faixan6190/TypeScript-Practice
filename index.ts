@@ -35,7 +35,16 @@
 // console.log(nameFull);
 
 //OPERATORS//
-let num1: number = 5;
-let num2: number = 10;
-let cart: number = num1 + num2;
-console.log(cart);
+// let num1: number = 5;
+// let num2: number = 3;
+// let cart: number = num1 % num2;
+// console.log(cart);
+
+//UNINARY OPERATORS//
+let a: number = 5;
+++a;
+let b: number = 2;
+b++;
+console.log(a);
+console.log(b);
+// let c: number;
