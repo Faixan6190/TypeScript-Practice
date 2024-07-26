@@ -198,7 +198,7 @@
 //     console.log("Go for Relatives");
 //     break;
 //   case "Friday":
-//     console.log("Go for Swimming");
+console.log("Go for Swimming");
 //     break;
 //   //   default:
 console.log("Work on a hobby");
