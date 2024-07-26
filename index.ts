@@ -177,14 +177,29 @@
 // console.log(`You should have some ${snack}.`);
 
 //SWITCH STATEMENTS//
-let dayOff = "Wednesday";
-switch (dayOff) {
-  case "Sunday":
-    console.log("Read a book.");
-    break;
-  case "Saturday":
-    console.log("Go for hiking");
-    break;
-  default:
-    console.log("Work on a hobby");
-}
+// let dayOff = "Friday";
+// switch (dayOff) {
+//   case "Saturday":
+//     console.log("Go for hiking");
+//     break;
+//   case "Sunday":
+//     console.log("Read a book.");
+//     break;
+//   case "Monday":
+//     console.log("Go for Office");
+//     break;
+//   case "Tuesday":
+//     console.log("Go for Gym");
+//     break;
+//   case "Wednesday":
+//     console.log("Go for Shopping");
+//     break;
+//   case "Thursday":
+//     console.log("Go for Relatives");
+//     break;
+//   case "Friday":
+//     console.log("Go for Swimming");
+//     break;
+//   //   default:
+console.log("Work on a hobby");
+// }
