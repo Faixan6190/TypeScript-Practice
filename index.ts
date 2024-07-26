@@ -189,7 +189,7 @@
 //     console.log("Go for Office");
 //     break;
 //   case "Tuesday":
-//     console.log("Go for Gym");
+console.log("Go for Gym");
 //     break;
 //   case "Wednesday":
 console.log("Go for Shopping");
