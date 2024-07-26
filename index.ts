@@ -186,7 +186,7 @@
 //     console.log("Read a book.");
 //     break;
 //   case "Monday":
-//     console.log("Go for Office");
+console.log("Go for Office");
 //     break;
 //   case "Tuesday":
 console.log("Go for Gym");
