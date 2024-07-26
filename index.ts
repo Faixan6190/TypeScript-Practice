@@ -192,7 +192,7 @@
 //     console.log("Go for Gym");
 //     break;
 //   case "Wednesday":
-//     console.log("Go for Shopping");
+console.log("Go for Shopping");
 //     break;
 //   case "Thursday":
 console.log("Go for Relatives");
