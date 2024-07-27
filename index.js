@@ -1,4 +1,5 @@
 //// PART 1 TYPESCRIPT PREPARATION////
+export {};
 // let userName: string = "Muhammad Faizan Ahmed";
 // userName = "Faizan";
 // // userName = 24;
@@ -253,10 +254,11 @@
 // };
 // let response: number = halfFryEgg(1, 1.5, 2);
 // console.log(response);
-let globalVar = "Accessible Everywhere";
-function showExample() {
-    let localVar = "Accessible only inside this function";
-    console.log(globalVar);
-}
-console.log(localVar);
-export {};
+//VARIABLE SCOPE//
+// let globalVar = "Accessible Everywhere";
+// function showExample() {
+//   let localVar = "Accessible only inside this function";
+//   console.log(globalVar);
+// }
+// console.log(localVar);
+//ANONYMOUS FUNCTIONS//
