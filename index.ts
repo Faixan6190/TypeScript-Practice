@@ -308,3 +308,8 @@
 // console.log(localVar);
 
 //ANONYMOUS FUNCTIONS//
+let halfFryEgg = function () {
+  let cooked = 1 + 2 + 4;
+  console.log(cooked);
+};
+halfFryEgg();
