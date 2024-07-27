@@ -205,12 +205,29 @@
 // }
 
 // NUMBER GAME//
-let guess: number = 7;
-let target: number = 5;
-if (guess < target) {
-  console.log("your guess is too low");
-} else if (guess > target) {
-  console.log("your guess is too high");
+// let guess: number = 7;
+// let target: number = 5;
+// if (guess < target) {
+//   console.log("your guess is too low");
+// } else if (guess > target) {
+//   console.log("your guess is too high");
+// } else {
+//   console.log("your guessed correctly");
+// }
+
+//FRIEND CHECKER GAME//
+import inquirer from "inquirer";
+
+let isFriend = await inquirer.prompt([
+  {
+    name: "name",
+    type: "string",
+    message: "Enter your friend name:",
+  },
+]);
+
+if (isFriend.name === "Faizan" || isFriend.name === "Sheikh") {
+  console.log(`${isFriend.name} is your friend`);
 } else {
-  console.log("your guessed correctly");
+  console.log(`${isFriend.name} is not your friend`);
 }

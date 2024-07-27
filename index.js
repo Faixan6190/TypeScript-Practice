@@ -148,30 +148,42 @@
 // let snack = isHungry ? "apple" : "water";
 // console.log(`You should have some ${snack}.`);
 //SWITCH STATEMENTS//
-let dayOff = "Friday";
-switch (dayOff) {
-    case "Saturday":
-        console.log("Go for hiking");
-        break;
-    case "Sunday":
-        console.log("Read a book.");
-        break;
-    case "Monday":
-        console.log("Go for Office");
-        break;
-    case "Tuesday":
-        console.log("Go for Gym");
-        break;
-    case "Wednesday":
-        console.log("Go for Shopping");
-        break;
-    case "Thursday":
-        console.log("Go for Relatives");
-        break;
-    case "Friday":
-        console.log("Go for Swimming");
-        break;
-    //   default:
-    //     console.log("Work on a hobby");
+// let dayOff = "Friday";
+// switch (dayOff) {
+//   case "Saturday":
+//     console.log("Go for hiking");
+//     break;
+//   case "Sunday":
+//     console.log("Read a book.");
+//     break;
+//   case "Monday":
+// console.log("Go for Office");
+//     break;
+//   case "Tuesday":
+// console.log("Go for Gym");
+//     break;
+//   case "Wednesday":
+// console.log("Go for Shopping");
+//     break;
+//   case "Thursday":
+// console.log("Go for Relatives");
+//     break;
+//   case "Friday":
+// console.log("Go for Swimming");
+//     break;
+//   //   default:
+// console.log("Work on a hobby");
+// }
+// NUMBER GAME//
+let guess = 7;
+let target = 5;
+if (guess < target) {
+    console.log("your guess is too low");
+}
+else if (guess > target) {
+    console.log("your guess is too high");
+}
+else {
+    console.log("your guessed correctly");
 }
 export {};
