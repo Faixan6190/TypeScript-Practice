@@ -216,18 +216,25 @@
 // }
 
 //FRIEND CHECKER GAME//
-import inquirer from "inquirer";
+// import inquirer from "inquirer";
 
-let isFriend = await inquirer.prompt([
-  {
-    name: "name",
-    type: "string",
-    message: "Enter your friend name:",
-  },
-]);
+// let isFriend = await inquirer.prompt([
+//   {
+//     name: "name",
+//     type: "input",
+//     message: "Enter your friend name:",
+//   },
+// ]);
 
-if (isFriend.name === "Faizan" || isFriend.name === "Sheikh") {
-  console.log(`${isFriend.name} is your friend`);
-} else {
-  console.log(`${isFriend.name} is not your friend`);
+// if (isFriend.name.toLowerCase() === "faizan" || isFriend.name.toLowerCase() === "sheikh") {
+//   console.log(`${isFriend.name} is your friend`);
+// } else {
+//   console.log(`${isFriend.name} is not your friend`);
+// }
+
+//FUNCTION//
+function halfFryEgg() {
+  let cooked = 1 + 1.5 + 2;
+  console.log(cooked);
 }
+halfFryEgg();
