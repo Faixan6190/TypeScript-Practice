@@ -249,9 +249,16 @@
 // console.log(response)
 
 //PARAMETERS AND ARGUMENTS
-function halfFryEgg(egg: number, butter: number, salt: number): number {
+// function halfFryEgg(egg: number, butter: number, salt: number): number {
+//   return egg + butter + salt;
+// }
+
+// let response: number = halfFryEgg(1, 3, 6);
+// console.log(response);
+
+//DEFAULT PARAMETERS//
+function halfFryEgg(egg: number = 1, butter: number = 2, salt: number = 7): number {
   return egg + butter + salt;
 }
-
-let response: number = halfFryEgg(1, 3, 6);
+let response: number = halfFryEgg();
 console.log(response);

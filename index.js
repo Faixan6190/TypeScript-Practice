@@ -204,10 +204,17 @@
 //   console.log(cooked);
 // }
 // halfFryEgg();
-function halfFryEgg() {
-    let cooked = 1 + 1.5 + 2;
-    return cooked;
+//RETURNING FUNCTION//
+// function halfFryEgg(): number {
+//   let cooked = 1 + 1.5 + 2;
+//   return cooked;
+// }
+// let response: number = halfFryEgg();
+// console.log(response)
+//PARAMETERS AND ARGUMENTS
+function halfFryEgg(egg, butter, salt) {
+    return egg + butter + salt;
 }
-let response = halfFryEgg();
+let response = halfFryEgg(1, 3, 6);
 console.log(response);
 export {};
