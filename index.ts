@@ -308,8 +308,13 @@
 // console.log(localVar);
 
 //ANONYMOUS FUNCTIONS//
-let halfFryEgg = function () {
-  let cooked = 1 + 2 + 4;
-  console.log(cooked);
-};
-halfFryEgg();
+// let halfFryEgg = function () {
+//   let cooked = 1 + 2 + 4;
+//   console.log(cooked);
+// };
+// halfFryEgg();
+
+//IMMEDIATELY INVOKED FUNCTION EXPRESSION//
+(function () {
+  console.log("runs immediately");
+})();

@@ -1,4 +1,5 @@
 // console.log("Hello World");
+export {};
 // const Header = () => {
 //   console.log("Hello World");
 // };
@@ -468,11 +469,9 @@
 // console.log(lastName);
 // console.log(typeof []);
 // console.log(typeof typeof []);
-let num = 6;
-if (num % 2 === 0) {
-    console.log("Even");
-}
-else {
-    console.log("Odd");
-}
-export {};
+// let num = 5;
+// if (num % 2 === 0) {
+//   console.log("Even");
+// } else {
+//   console.log("Odd");
+// }

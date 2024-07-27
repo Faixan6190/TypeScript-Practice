@@ -1,5 +1,4 @@
 //// PART 1 TYPESCRIPT PREPARATION////
-export {};
 // let userName: string = "Muhammad Faizan Ahmed";
 // userName = "Faizan";
 // // userName = 24;
@@ -262,3 +261,13 @@ export {};
 // }
 // console.log(localVar);
 //ANONYMOUS FUNCTIONS//
+// let halfFryEgg = function () {
+//   let cooked = 1 + 2 + 4;
+//   console.log(cooked);
+// };
+// halfFryEgg();
+//IMMEDIATELY INVOKED FUNCTION EXPRESSION//
+(function () {
+    console.log("runs immediately");
+})();
+export {};
