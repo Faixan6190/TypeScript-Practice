@@ -185,17 +185,23 @@
 //   console.log("your guessed correctly");
 // }
 //FRIEND CHECKER GAME//
-import inquirer from "inquirer";
-let isFriend = await inquirer.prompt([
-    {
-        name: "name",
-        type: "input",
-        message: "Enter your friend name:",
-    },
-]);
-if (isFriend.name.toLowerCase() === "faizan" || isFriend.name.toLowerCase() === "sheikh") {
-    console.log(`${isFriend.name} is your friend`);
+// import inquirer from "inquirer";
+// let isFriend = await inquirer.prompt([
+//   {
+//     name: "name",
+//     type: "input",
+//     message: "Enter your friend name:",
+//   },
+// ]);
+// if (isFriend.name.toLowerCase() === "faizan" || isFriend.name.toLowerCase() === "sheikh") {
+//   console.log(`${isFriend.name} is your friend`);
+// } else {
+//   console.log(`${isFriend.name} is not your friend`);
+// }
+//FUNCTION//
+function halfFryEgg() {
+    let cooked = 1 + 1.5 + 2;
+    console.log(cooked);
 }
-else {
-    console.log(`${isFriend.name} is not your friend`);
-}
+halfFryEgg();
+export {};

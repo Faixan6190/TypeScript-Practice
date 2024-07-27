@@ -233,8 +233,15 @@
 // }
 
 //FUNCTION//
-function halfFryEgg() {
+// function halfFryEgg() {
+//   let cooked = 1 + 1.5 + 2;
+//   console.log(cooked);
+// }
+// halfFryEgg();
+
+function halfFryEgg(): number {
   let cooked = 1 + 1.5 + 2;
-  console.log(cooked);
+  return cooked;
 }
-halfFryEgg();
+
+let response: number = halfFryEgg();
