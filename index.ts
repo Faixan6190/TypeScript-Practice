@@ -239,9 +239,19 @@
 // }
 // halfFryEgg();
 
-function halfFryEgg(): number {
-  let cooked = 1 + 1.5 + 2;
-  return cooked;
+//RETURNING FUNCTION//
+// function halfFryEgg(): number {
+//   let cooked = 1 + 1.5 + 2;
+//   return cooked;
+// }
+
+// let response: number = halfFryEgg();
+// console.log(response)
+
+//PARAMETERS AND ARGUMENTS
+function halfFryEgg(egg: number, butter: number, salt: number): number {
+  return egg + butter + salt;
 }
 
-let response: number = halfFryEgg();
+let response: number = halfFryEgg(1, 3, 6);
+console.log(response);

@@ -199,9 +199,15 @@
 //   console.log(`${isFriend.name} is not your friend`);
 // }
 //FUNCTION//
+// function halfFryEgg() {
+//   let cooked = 1 + 1.5 + 2;
+//   console.log(cooked);
+// }
+// halfFryEgg();
 function halfFryEgg() {
     let cooked = 1 + 1.5 + 2;
-    console.log(cooked);
+    return cooked;
 }
-halfFryEgg();
+let response = halfFryEgg();
+console.log(response);
 export {};
