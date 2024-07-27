@@ -600,3 +600,5 @@
 // console.log(firstName);
 // let lastName: string = "Ahmed";
 // console.log(lastName);
+
+console.log(typeof []);

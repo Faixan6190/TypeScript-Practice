@@ -257,8 +257,54 @@
 // console.log(response);
 
 //DEFAULT PARAMETERS//
-function halfFryEgg(egg: number = 1, butter: number = 2, salt: number = 7): number {
-  return egg + butter + salt;
-}
-let response: number = halfFryEgg();
-console.log(response);
+// function halfFryEgg(egg: number = 1, butter: number = 2, salt: number = 7): number {
+//   return egg + butter + salt;
+// }
+// let response: number = halfFryEgg();
+// console.log(response);
+
+//REST PARAMETERS//
+// function halfFryEgg(egg: number = 1, ...ingredients: number[]) {
+//   console.log(egg);
+//   console.log(ingredients);
+// }
+// halfFryEgg(1, 3, 5, 6);
+
+//ARROW FUNCITON//
+// let halfFryEgg = () => 1 + 3 + 6;
+// let response: number = halfFryEgg();
+// console.log(response);
+
+// let halfFryEgg = (egg: number, butter: number, salt: number): number => egg + butter + salt;
+// let response: number = halfFryEgg(10, 2, 5);
+// console.log(response);
+
+// let halfFryEgg = () => {
+//   return 3 + 5 + 2;
+// };
+// let response: number = halfFryEgg();
+// console.log(response);
+
+// let halfFryEgg = () => {
+//   let cooked = 3 + 5 + 4;
+//   return cooked;
+// };
+// let response: number = halfFryEgg();
+// console.log(response);
+
+// let halfFryEgg = (egg: number, butter: number, salt: number): number => {
+//   let cooked = egg + butter + salt;
+//   return cooked;
+// };
+// let response: number = halfFryEgg(1, 1.5, 2);
+// console.log(response);
+
+//VARIABLE SCOPE//
+// let globalVar = "Accessible Everywhere";
+// function showExample() {
+//   let localVar = "Accessible only inside this function";
+//   console.log(globalVar);
+// }
+// console.log(localVar);
+
+//ANONYMOUS FUNCTIONS//
