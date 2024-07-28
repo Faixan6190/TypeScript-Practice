@@ -315,6 +315,17 @@
 // halfFryEgg();
 
 //IMMEDIATELY INVOKED FUNCTION EXPRESSION//
-(function () {
-  console.log("runs immediately");
-})();
+// (function () {
+//   console.log("runs immediately");
+// })();
+
+//RECURSIVE FUNCTIONS//
+function countDown(number: number): void {
+  if (number <= 0) {
+    console.log("Done!");
+    return;
+  }
+  console.log(number);
+  countDown(number - 1);
+}
+countDown(5);
