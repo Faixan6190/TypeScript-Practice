@@ -267,7 +267,17 @@
 // };
 // halfFryEgg();
 //IMMEDIATELY INVOKED FUNCTION EXPRESSION//
-(function () {
-    console.log("runs immediately");
-})();
+// (function () {
+//   console.log("runs immediately");
+// })();
+//RECURSIVE FUNCTIONS//
+function countDown(number) {
+    if (number <= 0) {
+        console.log("Done!");
+        return;
+    }
+    console.log(number);
+    countDown(number - 2);
+}
+countDown(10);
 export {};

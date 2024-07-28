@@ -320,12 +320,13 @@
 // })();
 
 //RECURSIVE FUNCTIONS//
-function countDown(number: number): void {
-  if (number <= 0) {
-    console.log("Done!");
-    return;
-  }
-  console.log(number);
-  countDown(number - 1);
-}
-countDown(5);
+// function countDown(number: number): void {
+//   if (number <= 0) {
+//     console.log("Done!");
+//     return;
+//   }
+//   console.log(number);
+//   countDown(number - 1);
+// }
+// countDown(5);
+
