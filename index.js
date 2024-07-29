@@ -271,13 +271,21 @@
 //   console.log("runs immediately");
 // })();
 //RECURSIVE FUNCTIONS//
-function countDown(number) {
-    if (number <= 0) {
-        console.log("Done!");
-        return;
+// function countDown(number: number): void {
+//   if (number <= 0) {
+//     console.log("Done!");
+//     return;
+//   }
+//   console.log(number);
+//   countDown(number - 1);
+// }
+// countDown(5);
+function factorial(n) {
+    if (n === 0) {
+        return 1;
     }
-    console.log(number);
-    countDown(number - 2);
+    return n * factorial(n - 1);
 }
-countDown(10);
+let response = factorial(5);
+console.log(response);
 export {};
