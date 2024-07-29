@@ -280,12 +280,20 @@
 //   countDown(number - 1);
 // }
 // countDown(5);
-function factorial(n) {
-    if (n === 0) {
-        return 1;
-    }
-    return n * factorial(n - 1);
+// function factorial(n: number): number {
+//   if (n === 0) {
+//     return 1;
+//   }
+//   return n * factorial(n - 1);
+// }
+// let response = factorial(5);
+// console.log(response);
+//NESTED FUNCTIONS//
+function outerFunction() {
+    const innerFunction = function () {
+        console.log("Hello from inside!");
+    };
+    innerFunction();
 }
-let response = factorial(5);
-console.log(response);
+outerFunction();
 export {};

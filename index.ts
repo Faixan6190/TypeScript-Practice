@@ -346,4 +346,4 @@ function outerFunction() {
   };
   innerFunction();
 }
-outerFunction();
+// outerFunction();
