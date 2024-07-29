@@ -338,3 +338,12 @@
 // }
 // let response = factorial(5);
 // console.log(response);
+
+//NESTED FUNCTIONS//
+function outerFunction() {
+  const innerFunction = function () {
+    console.log("Hello from inside!");
+  };
+  innerFunction();
+}
+outerFunction();
