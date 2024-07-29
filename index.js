@@ -293,6 +293,7 @@ function outerFunction() {
     const innerFunction = function () {
         console.log("Hello from inside!");
     };
+    console.log("Hello fron outside");
     innerFunction();
 }
 outerFunction();
