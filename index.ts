@@ -337,4 +337,4 @@ function factorial(n: number): number {
   return n * factorial(n - 1);
 }
 let response = factorial(5);
-console.log(response);
+// console.log(response);
