@@ -357,3 +357,12 @@
 // processUserInput(function (name: string) {
 //   console.log("Hello, " + name);
 // });
+
+function processUserInput(callback: (name: string) => void) {
+  let name = "Faizan Ahmed";
+  callback(name);
+}
+
+processUserInput((name: string) => {
+  console.log("Hello, " + name);
+});
