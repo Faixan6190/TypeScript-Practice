@@ -306,11 +306,10 @@
 //   console.log("Hello, " + name);
 // });
 function processUserInput(callback) {
-    // let name = "Faizan Ahmed";
-    // callback(name);
-    console.log(name);
+    let fullName = "Faizan Ahmed";
+    callback(fullName);
 }
-processUserInput((name) => {
-    console.log("Hello, " + name);
+processUserInput((fullName) => {
+    console.log("Hello, " + fullName);
 });
 export {};
