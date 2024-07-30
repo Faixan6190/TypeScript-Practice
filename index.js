@@ -305,11 +305,16 @@
 // processUserInput(function (name: string) {
 //   console.log("Hello, " + name);
 // });
-function processUserInput(callback) {
-    let fullName = "Faizan Ahmed";
-    callback(fullName);
-}
-processUserInput((fullName) => {
-    console.log("Hello, " + fullName);
-});
+// function processUserInput(callback: (fullName: string) => void) {
+//   let fullName = "Faizan Ahmed";
+//   callback(fullName);
+// }
+// processUserInput((fullName: string) => {
+//   console.log("Hello, " + fullName);
+// });
+//SET TIMEOUT ORDER//
+setTimeout(() => {
+    console.log("Cake is ready!");
+}, 2000);
+console.log("Cake is Making Start");
 export {};

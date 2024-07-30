@@ -368,7 +368,16 @@
 // });
 
 //SET TIMEOUT ORDER//
-setTimeout(() => {
-  console.log("Cake is ready!");
-}, 2000);
+// setTimeout(() => {
+//   console.log("Cake is ready!");
+// }, 2000);
+// console.log("Cake is Making Start!");
 
+//SELF-CHECK QUIZ//
+import inquirer from "inquirer";
+
+let input1 = await inquirer.prompt([{
+  name: "userAnswer",
+  type: "string",
+  message: "What is the c"
+}])
