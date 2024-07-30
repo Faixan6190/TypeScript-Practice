@@ -359,8 +359,9 @@
 // });
 
 function processUserInput(callback: (name: string) => void) {
-  let name = "Faizan Ahmed";
-  callback(name);
+  // let name = "Faizan Ahmed";
+  // callback(name);
+  console.log(name);
 }
 
 processUserInput((name: string) => {
