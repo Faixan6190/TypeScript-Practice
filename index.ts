@@ -358,11 +358,17 @@
 //   console.log("Hello, " + name);
 // });
 
-function processUserInput(callback: (fullName: string) => void) {
-  let fullName = "Faizan Ahmed";
-  callback(fullName);
-}
+// function processUserInput(callback: (fullName: string) => void) {
+//   let fullName = "Faizan Ahmed";
+//   callback(fullName);
+// }
 
-processUserInput((fullName: string) => {
-  console.log("Hello, " + fullName);
-});
+// processUserInput((fullName: string) => {
+//   console.log("Hello, " + fullName);
+// });
+
+//SET TIMEOUT ORDER//
+setTimeout(() => {
+  console.log("Cake is ready!");
+}, 2000);
+
