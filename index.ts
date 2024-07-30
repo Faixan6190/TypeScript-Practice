@@ -340,11 +340,20 @@
 // console.log(response);
 
 //NESTED FUNCTIONS//
-function outerFunction() {
-  const innerFunction = function () {
-    console.log("Hello from inside!");
-  };
-  console.log("Hello fron outside");
-  innerFunction();
-}
-outerFunction();
+// function outerFunction() {
+//   const innerFunction = function () {
+//     console.log("Hello from inside!");
+//   };
+//   console.log("Hello fron outside");
+//   innerFunction();
+// }
+// outerFunction();
+
+//FUNCTION CALLBACKS//
+// function processUserInput(callback: any) {
+//   let name = "Muhammad Faizan Ahmed";
+//   callback(name);
+// }
+// processUserInput(function (name: string) {
+//   console.log("Hello, " + name);
+// });
