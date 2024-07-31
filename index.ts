@@ -592,9 +592,22 @@
 // }
 
 //DO WHILE LOOP//
+// let minutesUntilBusArrives = 5;
+
+// do {
+//   console.log("Checking for the bus...");
+//   minutesUntilBusArrives--;
+// } while (minutesUntilBusArrives > 0);
+
 let minutesUntilBusArrives = 5;
+const checkBusArrival = () => {
+  minutesUntilBusArrives--;
+  if (minutesUntilBusArrives != 0) {
+    return "Checking for the bus";
+  } else return false;
+};
 
 do {
-  console.log("Checking for the bus...");
-  minutesUntilBusArrives--;
+  let response = checkBusArrival();
+  console.log(response);
 } while (minutesUntilBusArrives > 0);
