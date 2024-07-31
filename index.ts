@@ -374,10 +374,194 @@
 // console.log("Cake is Making Start!");
 
 //SELF-CHECK QUIZ//
-import inquirer from "inquirer";
+// import inquirer from "inquirer";
+// let correctAnswer = ["Dubai", "Singapore", "Malaysia"];
+// let input1 = await inquirer.prompt([
+//   {
+//     name: "userAnswer",
+//     type: "string",
+//     message: "What is the capital of France?",
+//   },
+// ]);
 
-let input1 = await inquirer.prompt([{
-  name: "userAnswer",
-  type: "string",
-  message: "What is the c"
-}])
+// function quiz(question: string, correctAnswer: string) {
+//   if (input1.userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+//     console.log("correct!");
+//   } else {
+//     console.log("Wrong answer. Try again.");
+//   }
+// }
+// quiz("What is the capital of France?", "Paris");
+
+// import inquirer from "inquirer";
+
+// let correctAnswers = ["Dubai", "Singapore", "Malaysia"];
+// let input1 = await inquirer.prompt([
+//   {
+//     name: "userAnswer",
+//     type: "input",
+//     message: "What is the capital of France?",
+//   },
+// ]);
+
+// function quiz(userAnswer: string, correctAnswers: string[]) {
+//   if (correctAnswers.includes(userAnswer.toLowerCase())) {
+//     console.log("correct!");
+//   } else {
+//     console.log("Wrong answer. Try again.");
+//   }
+// }
+// quiz(input1.userAnswer, correctAnswers);
+
+// import inquirer from "inquirer";
+
+// let correctAnswers = ["Singapore", "Dubai", "Malaysia", "Island"];
+
+// let input1 = await inquirer.prompt([
+//   {
+//     name: "userAnswer",
+//     type: "input",
+//     message: "What is the capital of France?",
+//   },
+// ]);
+
+// function quiz(userAnswer: string, correctAnswers: string[]) {
+//   if (correctAnswers.some((answer) => answer.toLowerCase() === userAnswer.toLowerCase())) {
+//     console.log("Correct!");
+//   } else {
+//     console.log("Wrong answer. Try again.");
+//   }
+// }
+
+// quiz(input1.userAnswer, correctAnswers);
+
+//OBJECTS//
+// let person = {
+//   name: "Faizan Ahmed",
+//   email: "faizan@gmail.com",
+//   phoneNumer: "12345",
+//   id: 1334,
+//   course: "Web And App Development",
+// };
+// console.log(person.name);
+// console.log(person["email"]);
+// console.log(person["phoneNumer"]);
+// console.log(person["course"], person["id"]);
+
+// let person: { name: string } = {
+//   name: "Faizan Ahmed",
+// };
+// console.log(person.name)
+
+// let person: { name: string; email: string; phoneNumber: number } = {
+//   name: "Faizan",
+//   email: "faizan@gmail.com",
+//   phoneNumber: 12345,
+// };
+// person.name = "Faizan Ahmed";
+// console.log(person);
+
+//TYPE ALIAS//
+// type User = {
+//   name: string;
+//   age: number;
+//   hasCar: boolean;
+// };
+
+// let user1: User = {
+//   name: "Sheikh",
+//   age: 23,
+//   hasCar: true,
+// };
+// console.log(user1);
+
+// type Operation = (x: number, y: number) => number;
+// const add: Operation = (x, y) => x + y;
+// const subtract: Operation = (x, y) => x - y;
+// console.log(add(5, 3));
+// console.log(subtract(10, 4));
+
+//TYPE LITERAL//
+// let drinkSize: "Small" | "Medium" | "Large";
+// drinkSize = "Medium";
+// drinkSize = "Small";
+
+//TYPE UNIONS//
+// let mixedBag: string | number | boolean;
+// mixedBag = "Sunscreen";
+// mixedBag = 30;
+// mixedBag = true;
+
+//TYPE INTERSECTION//
+// type BeachGear = {
+//   sunscreen: boolean;
+//   towel: boolean;
+// };
+// type MountainGear = {
+//   waterBottle: boolean;
+//   map: boolean;
+// };
+// type AdventureGear = BeachGear & MountainGear;
+// let myGear: AdventureGear = {
+//   sunscreen: true,
+//   towel: true,
+//   waterBottle: true,
+//   map: true,
+// };
+// console.log(myGear)
+
+//ARRAY//
+// let fruits = ["Apple", "Banana", "Cherry"];
+// console.log(fruits.length);
+// console.log(fruits[1]);
+
+// let fruits: string[] = ["Apple", "Banana", "Cherry"];
+// console.log(fruits.length);
+// console.log(fruits[1]);
+
+//ARRAY METHOD//
+// let colors: string[] = ["Red", "Green", "Blue"];
+// colors.push("Purple", "Orange");
+// colors.pop();
+// colors.unshift("Golden");
+// colors.shift();
+// console.log(colors);
+
+//MULTIDIMENSIONAL ARRAY//
+// let matrix: number[][] = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+//   [10, 11, 12],
+// ];
+// console.log(matrix[3][1]);
+
+// type Book = {
+//   title: string;
+//   author: string;
+//   isbn: string;
+// };
+// let library: Book[] = [
+//   { title: "The Hobbit", author: "J.J.R. Tolkien", isbn: "1234567" },
+//   { title: "1984", author: "George Orwell", isbn: "09876543" },
+// ];
+// console.log(library);
+
+type Book = {
+  title: string;
+  author: string;
+  isbn: string;
+};
+let library: Book[] = [
+  { title: "The Hobbit", author: "J.J.R. Tolkien", isbn: "1234567" },
+  { title: "1984", author: "George Orwell", isbn: "09876543" },
+];
+library.push({
+  title: "The Catcher in the Rye",
+  author: "Harry",
+  isbn: "321321321",
+});
+console.log("library", library);
+
+let foundBook = library.find((book) => book.author === "George Orwell");
+console.log(foundBook);
