@@ -585,3 +585,16 @@
 // console.log(myCoffee);
 
 //WHILE LOOP//
+// let minutesUntilBusArrives = 10;
+// while (minutesUntilBusArrives > 0) {
+//   console.log(`Bus Arrives in ${minutesUntilBusArrives} minutes.`);
+//   minutesUntilBusArrives--;
+// }
+
+//DO WHILE LOOP//
+let minutesUntilBusArrives = 5;
+
+do {
+  console.log("Checking for the bus...");
+  minutesUntilBusArrives--;
+} while (minutesUntilBusArrives > 0);
