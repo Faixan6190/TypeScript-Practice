@@ -547,21 +547,25 @@
 // ];
 // console.log(library);
 
-type Book = {
-  title: string;
-  author: string;
-  isbn: string;
-};
-let library: Book[] = [
-  { title: "The Hobbit", author: "J.J.R. Tolkien", isbn: "1234567" },
-  { title: "1984", author: "George Orwell", isbn: "09876543" },
-];
-library.push({
-  title: "The Catcher in the Rye",
-  author: "Harry",
-  isbn: "321321321",
-});
-console.log("library", library);
+// type Book = {
+//   title: string;
+//   author: string;
+//   isbn: string;
+// };
+// let library: Book[] = [
+//   { title: "The Hobbit", author: "J.J.R. Tolkien", isbn: "1234567" },
+//   { title: "1984", author: "George Orwell", isbn: "09876543" },
+// ];
+// library.push({
+//   title: "The Catcher in the Rye",
+//   author: "Harry",
+//   isbn: "321321321",
+// });
+// console.log("library", library);
 
-let foundBook = library.find((book) => book.author === "George Orwell");
-console.log(foundBook);
+// let foundBook = library.find((book) => book.author === "Harry");
+// if (foundBook) {
+//   console.log("Author found:", foundBook.author);
+// } else {
+//   console.log("Author not found");
+// }
