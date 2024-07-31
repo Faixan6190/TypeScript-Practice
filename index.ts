@@ -574,4 +574,13 @@
 // let coffeeOrder: [string, string] = ["Cappuccino", "Medium"];
 // console.log("coffeeOrder", coffeeOrder);
 
+//ENUM//
+// enum CoffeeType {
+//   Espresso,
+//   Latte,
+//   Cappuccino,
+//   Americano,
+// }
+// let myCoffee: CoffeeType = CoffeeType.Espresso;
+// console.log(myCoffee);
 

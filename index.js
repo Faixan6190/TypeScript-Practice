@@ -491,7 +491,14 @@
 //TUPLES//
 // let coffeeOrder: [string, string] = ["Cappuccino", "Medium"];
 // console.log("coffeeOrder", coffeeOrder);
-let coffeeOrder;
-(coffeeOrder = "Cappuccino"), (coffeeOrder = "Medium");
-console.log("coffeeOrder", coffeeOrder);
+//ENUM//
+var CoffeeType;
+(function (CoffeeType) {
+    CoffeeType[CoffeeType["Espresso"] = 0] = "Espresso";
+    CoffeeType[CoffeeType["Latte"] = 1] = "Latte";
+    CoffeeType[CoffeeType["Cappuccino"] = 2] = "Cappuccino";
+    CoffeeType[CoffeeType["Americano"] = 3] = "Americano";
+})(CoffeeType || (CoffeeType = {}));
+let myCoffee = CoffeeType.Espresso;
+console.log(myCoffee);
 export {};
