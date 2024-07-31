@@ -569,3 +569,9 @@
 // } else {
 //   console.log("Author not found");
 // }
+
+//TUPLES//
+// let coffeeOrder: [string, string] = ["Cappuccino", "Medium"];
+// console.log("coffeeOrder", coffeeOrder);
+
+
