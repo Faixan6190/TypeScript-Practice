@@ -507,9 +507,44 @@
 //   minutesUntilBusArrives--;
 // }
 //DO WHILE LOOP//
-let minutesUntilBusArrives = 5;
-do {
-    console.log("Checking for the bus...");
-    minutesUntilBusArrives--;
-} while (minutesUntilBusArrives > 0);
+// let minutesUntilBusArrives = 5;
+// do {
+//   console.log("Checking for the bus...");
+//   minutesUntilBusArrives--;
+// } while (minutesUntilBusArrives > 0);
+// let minutesUntilBusArrives = 5;
+// const checkBusArrival = () => {
+//   minutesUntilBusArrives--;
+//   if (minutesUntilBusArrives != 0) {
+//     return "Checking for the bus";
+//   } else return false;
+// };
+// do {
+//   let response = checkBusArrival();
+//   console.log(response);
+// } while (minutesUntilBusArrives > 0);
+//FOR LOOP//
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
+//FOR IN LOOP//
+// type personObj = {
+//   name: string;
+//   age: number;
+//   city: string;
+// };
+// let person: any = {
+//   name: "Faizan",
+//   age: 23,
+//   city: "Karachi",
+// };
+// for (let key in person) {
+//   // console.log(`${key}: ${person[key as keyof personObj]}`);
+//   console.log(`${key}: ${person[key]}`);
+// }
+//FOR OF LOOP//
+let flavors = ["Vanilla", "Chocolate", "Strawberry", "Mint"];
+for (let flavor of flavors) {
+    console.log(flavor);
+}
 export {};
