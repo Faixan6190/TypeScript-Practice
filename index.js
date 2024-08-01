@@ -543,8 +543,11 @@
 //   console.log(`${key}: ${person[key]}`);
 // }
 //FOR OF LOOP//
-let flavors = ["Vanilla", "Chocolate", "Strawberry", "Mint"];
-for (let flavor of flavors) {
-    console.log(flavor);
+// let flavors = ["Vanilla", "Chocolate", "Strawberry", "Mint"];
+// for (let flavor of flavors) {
+//   console.log(flavor);
+// }
+for (let i = 0; i < 5; i++) {
+    console.log("Hello, " + i);
 }
 export {};
