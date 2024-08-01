@@ -548,6 +548,6 @@
 //   console.log(flavor);
 // }
 for (let i = 0; i < 5; i++) {
-    console.log("Hello " + i + 1);
+    console.log("Hello", +i + 1);
 }
 export {};
