@@ -649,5 +649,5 @@
 let arr = ["Faizan", "Sheikh", "Ahmed", "Khizer"];
 
 for (let key in arr) {
-  console.log(key);
+  console.log(key, arr[key]);
 }
