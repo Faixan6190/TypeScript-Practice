@@ -641,7 +641,13 @@
 //   console.log(flavor);
 // }
 
-for (let i = 0; i < 5; i++) {
-  // console.log("Hello", +i);
-  console.log("Chai pila do");
+// for (let i = 0; i < 5; i++) {
+//   // console.log("Hello", +i);
+//   console.log("Chai pila do");
+// }
+
+let arr = ["Faizan", "Sheikh", "Ahmed", "Khizer"];
+
+for (let key in arr) {
+  console.log(key);
 }
