@@ -551,8 +551,6 @@
 //   // console.log("Hello", +i);
 //   console.log("Chai pila do");
 // }
-let arr = ["Faizan", "Sheikh", "Ahmed", "Khizer"];
-for (let key in arr) {
-    console.log(key, arr[key]);
-}
+let a = "1";
+console.error(a);
 export {};

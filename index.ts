@@ -646,5 +646,5 @@
 //   console.log("Chai pila do");
 // }
 
-let a: string = 1;
+let a: string = "1";
 console.error(a);
