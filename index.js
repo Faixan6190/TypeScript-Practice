@@ -553,6 +553,6 @@
 // }
 let arr = ["Faizan", "Sheikh", "Ahmed", "Khizer"];
 for (let key in arr) {
-    console.log(key, arr);
+    console.log(key, arr[key]);
 }
 export {};

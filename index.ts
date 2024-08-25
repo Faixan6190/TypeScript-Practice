@@ -646,8 +646,4 @@
 //   console.log("Chai pila do");
 // }
 
-let arr = ["Faizan", "Sheikh", "Ahmed", "Khizer"];
-
-for (let key in arr) {
-  console.log(key, arr[key]);
-}
+let a: string = "Faizan";
