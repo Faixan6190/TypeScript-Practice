@@ -646,5 +646,6 @@
 //   console.log("Chai pila do");
 // }
 
-let a: string = "1";
-console.error(a);
+let a: string = "Faizan";
+console.log(a, "log");
+console.error(a, "error");
