@@ -551,6 +551,6 @@
 //   // console.log("Hello", +i);
 //   console.log("Chai pila do");
 // }
-let a = "1";
-console.error(a);
-export {};
+var a = "Faizan";
+console.log(a, "log");
+console.error(a, "error");
