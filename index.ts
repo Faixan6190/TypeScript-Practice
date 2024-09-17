@@ -645,5 +645,3 @@
 //   // console.log("Hello", +i);
 //   console.log("Chai pila do");
 // }
-
-let a: string = "Faizan";
