@@ -647,4 +647,3 @@
 // }
 
 let a: string = "Faizan";
-console.log(a);
