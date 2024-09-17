@@ -651,4 +651,4 @@ console.log(a);
 let b: string = "Ahmed";
 console.log(b);
 
-console.log(`${a} + ${b}`);
+console.log(`${a} ${b}`);

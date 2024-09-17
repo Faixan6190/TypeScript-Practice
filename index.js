@@ -555,4 +555,5 @@ let a = "Faizan";
 console.log(a);
 let b = "Ahmed";
 console.log(b);
+console.log(`${a} ${b}`);
 export {};
