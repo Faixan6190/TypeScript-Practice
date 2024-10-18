@@ -647,4 +647,3 @@
 // }
 
 let a = "Faizan";
-let b = "Sheikh";
