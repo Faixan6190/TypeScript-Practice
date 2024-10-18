@@ -552,8 +552,7 @@
 //   console.log("Chai pila do");
 // }
 let a = "Faizan";
-console.log(a);
-let b = "Ahmed";
-console.log(b);
-console.log(`${a} ${b}`);
+let b = "Sheikh";
+let fullName = a + " " + b;
+console.log(fullName);
 export {};

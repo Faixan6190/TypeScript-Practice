@@ -648,5 +648,4 @@
 
 let a = "Faizan";
 let b = "Sheikh";
-let fullName = a + b;
-console.log(fullName);
+let fullName = a + " " + b;
